@@ -7,7 +7,7 @@ $config = array(
     'resource' => "app"
 );
 
-echo json_encode($config);
+echo json_encode($config, JSON_UNESCAPED_SLASHES);
 ?>
 
 
