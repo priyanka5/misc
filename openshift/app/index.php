@@ -29,7 +29,6 @@
 </head>
 
 <body>
-    <?= $_ENV["TEST"] ?>
     <div class="wrapper">
         <div id="not-authenticated" class="menu">
             <button name="loginBtn" onclick="keycloak.login()">Login</button>
