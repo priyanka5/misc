@@ -1,0 +1,2680 @@
+<html><head>
+<style>
+body {
+    font-family: arial,sans-serif;
+    color: #333;
+}
+div.maxheight {
+    border: 1px solid #e0e0e0;
+    max-height: 200px;
+    overflow: auto;
+}
+h1 {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+h2 {
+    margin-top: 30px;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+}
+tr {
+    margin: 0;
+    padding: 0;
+}
+th {
+    text-align: left;
+    margin: 0;
+    padding: 5px 15px 5px 5px;
+}
+td {
+    margin: 0;
+    padding: 5px 15px 5px 5px;
+}
+tr:nth-child(odd){
+  background-color: #e0e0e0;
+}
+</style>
+
+</head><body>
+Total responses: 112
+<h1>Securing Apps</h1>
+<div class="maxheight">
+<table>
+<tr><td>Keycloak JavaScript Adapter</td><td>61</td></tr>
+<tr><td>Keycloak Spring Boot Adapter</td><td>44</td></tr>
+<tr><td>Keycloak WildFly Adapter</td><td>36</td></tr>
+<tr><td>Apache mod_auth_oidc</td><td>17</td></tr>
+<tr><td>Keycloak Node.js Adapter</td><td>14</td></tr>
+<tr><td>Keycloak Tomcat Adapter</td><td>13</td></tr>
+<tr><td>Apache mod_auth_saml</td><td>9</td></tr>
+<tr><td>Keycloak Jetty Adapter</td><td>3</td></tr>
+<tr><td>Oauth2 proxy</td><td>2</td></tr>
+<tr><td>Spring security</td><td>1</td></tr>
+<tr><td>wordpress saml/openid plugins</td><td>1</td></tr>
+<tr><td>Spring security adapter and spring oauth client (w</td><td>1</td></tr>
+<tr><td>https://github.com/dylanplecki/KeycloakOwinAuthent</td><td>1</td></tr>
+<tr><td>Looking into the NGINX plus R15 oauth2 integration</td><td>1</td></tr>
+<tr><td>Ad-hoc gateway in the form of a docker container, </td><td>1</td></tr>
+<tr><td>Self-made python port of keycloak / flask adapter </td><td>1</td></tr>
+<tr><td>built in SAML support in potal systems</td><td>1</td></tr>
+<tr><td>Native SAML and OIDC adapters</td><td>1</td></tr>
+<tr><td>Spring Oauth2 (OIDC)</td><td>1</td></tr>
+<tr><td>Java implementation in Netflix Zuul to support swi</td><td>1</td></tr>
+<tr><td>Vert.x</td><td>1</td></tr>
+<tr><td>Apiman integration using cusom policy plugin</td><td>1</td></tr>
+<tr><td>native SAML on third-party services or plugins for</td><td>1</td></tr>
+<tr><td>jboss eap adapter</td><td>1</td></tr>
+<tr><td>Vert.x Adapter</td><td>1</td></tr>
+<tr><td>Apache mod_auth_mellon, native support/add-ons (e.</td><td>1</td></tr>
+<tr><td>mod_auth_cas, native cas and openid adapters provi</td><td>1</td></tr>
+<tr><td>keycloak .Net Adapter</td><td>1</td></tr>
+<tr><td>partially hand written adapters</td><td>1</td></tr>
+<tr><td>Spring Security OAuth - no Keycloak-specific code </td><td>1</td></tr>
+<tr><td>1) Custom code for checking Authorization header. </td><td>1</td></tr>
+<tr><td>Java Adapter</td><td>1</td></tr>
+<tr><td>Keycloak java servlet adapter with some parts over</td><td>1</td></tr>
+<tr><td>Keycloak Spring Security Adapter</td><td>1</td></tr>
+<tr><td>.NET OWIN</td><td>1</td></tr>
+<tr><td>We wrote own in go</td><td>1</td></tr>
+<tr><td>RSA token verifier</td><td>1</td></tr>
+<tr><td>Need help with Spring Boot 2 adapter</td><td>1</td></tr>
+<tr><td>had to build my own adapter for GraphQL</td><td>1</td></tr>
+<tr><td>authentication proxy</td><td>1</td></tr>
+<tr><td>nginx lua-resty-openidc</td><td>1</td></tr>
+<tr><td>Spring security adapter, keycloak security proxy f</td><td>1</td></tr>
+<tr><td>SAML with custom certificates</td><td>1</td></tr>
+<tr><td>Angular openid module </td><td>1</td></tr>
+<tr><td>using docker image available for keycloak</td><td>1</td></tr>
+<tr><td>Custom Spring Boot 2 Integration https://github.co</td><td>1</td></tr>
+<tr><td>javascript adapter is integrated via Elm ports. I </td><td>1</td></tr>
+<tr><td>simplesamlphp</td><td>1</td></tr>
+<tr><td>Embeded OpenID Connect in some applications</td><td>1</td></tr>
+<tr><td>AWS WAF</td><td>1</td></tr>
+<tr><td>Using only for SaaS</td><td>1</td></tr>
+</table>
+</div>
+<h2>Do you want a proxy?</h2>
+<div class="maxheight">
+<table><tr><th>Yes</th><th>No</th>
+<tr><td>77</td><td>31</td>
+</table>
+</div>
+<h1>Features</h1>
+<div class="maxheight">
+<table>
+<tr><td>OpenID Connect</td><td>100</td></tr>
+<tr><td>Login pages</td><td>98</td></tr>
+<tr><td>Realm or client roles</td><td>91</td></tr>
+<tr><td>User Management</td><td>85</td></tr>
+<tr><td>Account Management Console</td><td>80</td></tr>
+<tr><td>User Groups</td><td>76</td></tr>
+<tr><td>Authorization Services</td><td>72</td></tr>
+<tr><td>Password policy</td><td>64</td></tr>
+<tr><td>Brute force protection</td><td>61</td></tr>
+<tr><td>Identity Brokering</td><td>59</td></tr>
+<tr><td>User Federation with LDAP</td><td>53</td></tr>
+<tr><td>Token exchange</td><td>48</td></tr>
+<tr><td>Import/export</td><td>48</td></tr>
+<tr><td>Events</td><td>47</td></tr>
+<tr><td>SAML</td><td>42</td></tr>
+<tr><td>Fine-grained permissions in admin console/endpoint</td><td>29</td></tr>
+<tr><td>Two factor auth, user invite</td><td>2</td></tr>
+<tr><td>Userfederation with custom Identity Mananger</td><td>1</td></tr>
+<tr><td>Some other custom implementations!</td><td>1</td></tr>
+<tr><td>PairWise</td><td>1</td></tr>
+<tr><td>Custom Authenticators, OTP, Keycloak Admin Client,</td><td>1</td></tr>
+<tr><td>cas, kerberos</td><td>1</td></tr>
+<tr><td>themes</td><td>1</td></tr>
+<tr><td>Learning how to do the unchecked options before de</td><td>1</td></tr>
+<tr><td>identity provider. new workflow steps</td><td>1</td></tr>
+<tr><td>Customized freemarker template to return json inst</td><td>1</td></tr>
+<tr><td>admin REST API</td><td>1</td></tr>
+<tr><td>Authentication Flows customization, SPI</td><td>1</td></tr>
+<tr><td>plugin creation for DB conectiion</td><td>1</td></tr>
+<tr><td>User Storage SPI & Import implementation strategy </td><td>1</td></tr>
+<tr><td>We're planning to use in the near future: User Fed</td><td>1</td></tr>
+<tr><td>Theme customization</td><td>1</td></tr>
+<tr><td>Kerberos, Admin APIs</td><td>1</td></tr>
+<tr><td>SPI interface for custom signup flow that adds a s</td><td>1</td></tr>
+</table>
+</div>
+<h2>Missing features</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>We'd like to have some kind of ""review process"" where some important changes have to be approved by somebody else.</td>
+</tr>
+<tr>
+<td>examples</td>
+</tr>
+<tr>
+<td>valid docker images supporting https </td>
+</tr>
+<tr>
+<td>Cas</td>
+</tr>
+<tr>
+<td>Support for more realms, we have about 600 tenants and System should be able to handle such a number of realms</td>
+</tr>
+<tr>
+<td>Proxy support, authorization in the browser flow</td>
+</tr>
+<tr>
+<td>Authomatic custom fields in registration form</td>
+</tr>
+<tr>
+<td>The truth is that keycloak has become such a mature product that for us it has more features than we need.</td>
+</tr>
+<tr>
+<td>Realm input box on form login to specify it manually</td>
+</tr>
+<tr>
+<td>Tree view for selecting user roles and for listing roles in admin UI. Out of the box Docker clustering.</td>
+</tr>
+<tr>
+<td>support for fraud detection
+customer device detection
+remove depedency on Infinispan Cluster (local cache is ok)
+speed up startup especially regarding offline token handling</td>
+</tr>
+<tr>
+<td>Admin hi to revoke N users password, force password reset, general group management , Registration api, campaign management interface (current email of little value), Ota api, fix the customer search (please). Encryption on kc pii. Mobile device integration. </td>
+</tr>
+<tr>
+<td>Full working client registration API with the definition of scopes, dynamic registration of resource servers and assignment to clients</td>
+</tr>
+<tr>
+<td>CAS support and single-log-out</td>
+</tr>
+<tr>
+<td>Disable password auth (use only IdP broker)</td>
+</tr>
+<tr>
+<td>Easy deployment options for k8s, config backup , restore , database less deployment when using LDAP</td>
+</tr>
+<tr>
+<td>À real workflow manager for registration/authentication, etc. </td>
+</tr>
+<tr>
+<td>W3C Web authentication </td>
+</tr>
+<tr>
+<td>Better SPA support.  More flexible role-based access capabilities.  More use case based doc. </td>
+</tr>
+<tr>
+<td>Nothing at the moment</td>
+</tr>
+<tr>
+<td>U2F / FIDO2 / WebAuthN. Documentation for Spring Boot 2 adapter</td>
+</tr>
+<tr>
+<td>2FA: allow a certain device to be recognized for e.g. a week without triggering another 2FA chalenge</td>
+</tr>
+<tr>
+<td>themes per client</td>
+</tr>
+<tr>
+<td>Proper Spring Boot support (also Spring Boot 2!)</td>
+</tr>
+<tr>
+<td>2FA should be a lot better: remember device, support mobile notifications, email, emergency access using paper keys or similar, step up authentication/one time 2FA for sensitive actions</td>
+</tr>
+<tr>
+<td>Better automation of provisioning and configuration.</td>
+</tr>
+<tr>
+<td>Easy migration of setups</td>
+</tr>
+<tr>
+<td>Milestones with deadline dates</td>
+</tr>
+<tr>
+<td>Manage ssl auth for applications in scenario when each user will have own certificate. Also we need client API to get Boolean result of policy (JavaScript code) invocation with ability to specify context</td>
+</tr>
+<tr>
+<td>easy-to-setup multi-client configuration for spring security w/ spring boot (one instance of a spring boot application accepting bearer tokens from multiple keycloak instances)</td>
+</tr>
+<tr>
+<td>User invite</td>
+</tr>
+<tr>
+<td>User invite</td>
+</tr>
+<tr>
+<td>better control over OTP or flow to OTP modification, maybe an API to OTP. UMA 2.0</td>
+</tr>
+<tr>
+<td>using a custom issuer for the token</td>
+</tr>
+<tr>
+<td>Redis caching instead if infinispan since we can use managed redis service,  stateless keycloak servers so that they can be put behind ELB without stickiness</td>
+</tr>
+<tr>
+<td>access policy: user (group/role) --> client; add user to group (and not role) when identity brokering; fine granular permissions in admin console (e.g. give someobe permission to add users without being a realm admin --> define a template user and super-operator is only allowed to create new user based on template); option for temporary user when identity brokering - like user federation; better search possibilites in admin console (e.g. search for users having special permissions / client roles / ...); </td>
+</tr>
+<tr>
+<td>CAS protocol support</td>
+</tr>
+<tr>
+<td>Two-factor authentication with Duo.  Using Google Authenticator with pre-existing secrets, eg /home/.google_authenticator</td>
+</tr>
+<tr>
+<td>Get user attributes from several ldap</td>
+</tr>
+<tr>
+<td>SMS confirmation, easier customization of the flows</td>
+</tr>
+<tr>
+<td>Lists / multi value aud / amr fields in standard mappers;  Also, a ""developer"" portal type of client configuration application would be nice.  This is for our application and third party developers to tune their applications (within limits specified by our Keycloak team).</td>
+</tr>
+<tr>
+<td>- Just use API to avoid redirection or changing templates anymore
+- Define the required fields for user registration
+- MongoDB support</td>
+</tr>
+<tr>
+<td>Session management. Being able to maximize concurrent sessions in keycloak</td>
+</tr>
+<tr>
+<td>Accepting the pull request here would be great: https://github.com/jboss-dockerfiles/keycloak/pull/100</td>
+</tr>
+<tr>
+<td>A separeted event to align Keycloak roles with the legacy one managed by the Federation/User Storage Provider.
+The ability to set some settings at client level instead of real level (i.e. token expiration time).</td>
+</tr>
+<tr>
+<td>More convenient API calls in the admin API. For instance, being able to determine if user is in a certain group or in the parent group. Recaptcha support for login, reset password etc.</td>
+</tr>
+<tr>
+<td>Better role delegation in Admin Console (coming in 4.0?)</td>
+</tr>
+<tr>
+<td>Supported .NET integration. It is uncomfortable for us to reply on the community.</td>
+</tr>
+<tr>
+<td>Haven't gotten in deep enough yet to know. This is a new implementation.</td>
+</tr>
+<tr>
+<td>testing framework. better spring adapters. Better entrypoint.</td>
+</tr>
+<tr>
+<td>Overview in UI, which users do have which roles in a selected client</td>
+</tr>
+<tr>
+<td>2 authentication factor</td>
+</tr>
+<tr>
+<td>Better documentation for the Server GUI, REST-APIs, and adapters (and: code & test cases are not documentation, they should augment it)
+User Interaction Design and GUI design on the interface.
+An SEO expert help 'clear up' all the stale documentation links and promote the good ones.</td>
+</tr>
+<tr>
+<td>Another 2 Factor authentication, especially SMS. OTP is not yet known and trusted by normal users.</td>
+</tr>
+<tr>
+<td>- Preconfigured support role / ui in admin-console (realm scoped admin-console is not enough)
+- Role overview: which users have a particular set of roles?
+- Search by userId - many applications only store the user id but not the username
+- Dedicated event configuration per Listener - and not only global like there is currently
+- Ease migration from dev to staging / prod of realm Keycloak configuration
+- Improve user registration by supporting to invite new users via link in email (with global / client individual onboarding / registration flows)
+- Add monitoring capabilities (health checks)</td>
+</tr>
+<tr>
+<td>JPA providers to be hot deployable!</td>
+</tr>
+<tr>
+<td>GraphQL, REST endpoints are outdated nowadays, need something more generic</td>
+</tr>
+<tr>
+<td>Compatibility with CAS protocol</td>
+</tr>
+<tr>
+<td>Integration with APEX.......... :)</td>
+</tr>
+<tr>
+<td>Strong support for UML2 and better support for multirealm (multitennent) usecases where many sites (1 realm per site) use common multitennent microservices in the backend</td>
+</tr>
+<tr>
+<td>GUI editing of client attributes</td>
+</tr>
+<tr>
+<td>invite behavior, one time passwords, multi-factor authentitation</td>
+</tr>
+<tr>
+<td>Flexible custom user attributes (ideally UI-configurable) on account management; RPM distribution</td>
+</tr>
+<tr>
+<td>Support for step-up Authentication</td>
+</tr>
+<tr>
+<td>Other server container official support, e.g. Tomcat</td>
+</tr>
+<tr>
+<td>Setup tool (integrated into the UI or a command line command) that helps to get started more easily and less time-consuming for beginners.</td>
+</tr>
+<tr>
+<td>Generally, the ease of configuring Keycloak and Realms, and persisting this configuration outside of keycloak (source control, CI/CD stack etc). Injectable configuration for running in Docker under different environments (Dev, Test, Prod etc). Realm import is flaky (some things can be imported, other things can't?) Some realm config settings are environment independent, and some change with environment.</td>
+</tr>
+<tr>
+<td>France Connect federation</td>
+</tr>
+<tr>
+<td>- Ability to authenticate users via Kerberos and then look them up in LDAP based on some attribute (krbPrincipalName) instead of assuming that principal == uid
+- FIDO U2F support
+- Handling FreeIPA-integrated OTP in two-step fashion, just like built-in OTP (but I believe this would require changes on FreeIPA side)
+- Extending Keycloak in Python ;-)</td>
+</tr>
+<tr>
+<td>Waiting for Account2 to go into GA...</td>
+</tr>
+</table>
+</div>
+<h1>Customization</h1>
+<h2>Themes</h2>
+<div class="maxheight">
+<table>
+<tr><td>Login</td><td>97</td></tr>
+<tr><td>Email</td><td>52</td></tr>
+<tr><td>Account</td><td>47</td></tr>
+<tr><td>Welcome</td><td>36</td></tr>
+<tr><td>Admin</td><td>13</td></tr>
+</table>
+</div>
+<h2>SPIs</h2>
+<div class="maxheight">
+<table>
+<tr><td>Authenticator</td><td>34</td></tr>
+<tr><td>User Storage</td><td>26</td></tr>
+<tr><td>Theme Resources</td><td>19</td></tr>
+<tr><td>Event Listener</td><td>17</td></tr>
+<tr><td>Required Action</td><td>17</td></tr>
+<tr><td>Identity Brokering</td><td>15</td></tr>
+<tr><td>Protocol Mapper</td><td>15</td></tr>
+<tr><td>Credentials</td><td>11</td></tr>
+<tr><td>Login Protocol</td><td>10</td></tr>
+<tr><td>Password Hashing</td><td>9</td></tr>
+<tr><td>Password Policy</td><td>6</td></tr>
+<tr><td>Keys</td><td>5</td></tr>
+<tr><td>Theme Selector</td><td>4</td></tr>
+<tr><td>Event Store</td><td>4</td></tr>
+<tr><td>not sure</td><td>1</td></tr>
+<tr><td>Not sure the proper name, we customize the signup </td><td>1</td></tr>
+<tr><td>User management, Event lookup</td><td>1</td></tr>
+<tr><td>It's not a SPI but we do have a shared component w</td><td>1</td></tr>
+<tr><td>FormAction</td><td>1</td></tr>
+<tr><td>MailProvider</td><td>1</td></tr>
+</table>
+</div>
+<h2>Significant changes</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>saml configurations</td>
+</tr>
+<tr>
+<td>Timers to have long lasting user sessions (1 day vs 30 minutes)</td>
+</tr>
+<tr>
+<td>On how the HTTP session are distributed between nodes (unicast through the DB)</td>
+</tr>
+<tr>
+<td>No, we simply make calls to external services of our projects from the actions triggered by Keycloak.
+We do not want to make changes in order to updates does not cause us nightmares as we did with the first keycloak versions.</td>
+</tr>
+<tr>
+<td>yes</td>
+</tr>
+<tr>
+<td>not sure</td>
+</tr>
+<tr>
+<td>Nope</td>
+</tr>
+<tr>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Not really, just adapting common stuff as names and basig settings.</td>
+</tr>
+<tr>
+<td>No - config is hell to configure, especially when deploying as a stateless container on something like Kubernetes.</td>
+</tr>
+<tr>
+<td>No, not really. We modified the datasource and some caching settings.</td>
+</tr>
+<tr>
+<td>Yes compatibility with CAS and SAMLv1.1</td>
+</tr>
+<tr>
+<td>Token lifetime, hash iterations</td>
+</tr>
+<tr>
+<td>Mostly during the build process since we are running as Openshift containers. </td>
+</tr>
+<tr>
+<td>Yes.  HA cluster config, replication, cache sizes/durations.</td>
+</tr>
+<tr>
+<td>Timeouts </td>
+</tr>
+<tr>
+<td>Not really significant</td>
+</tr>
+<tr>
+<td>LDAP Mappings</td>
+</tr>
+<tr>
+<td>Not explored yet</td>
+</tr>
+<tr>
+<td>yes; e.g to restrict the admin console for operators to have  very limited functionalities (e.g. see users, can logout user, can reset password, but is not alloed to change user properties)</td>
+</tr>
+<tr>
+<td>Nothing aside from configuration necessary to work with LDAP and clients.  We do use custom templates for logins.</td>
+</tr>
+<tr>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Nothing significant.</td>
+</tr>
+<tr>
+<td>We have needed to cluster on TCP with NATed addresses, otherwise we use mostly the standard configuration in standalone-ha.xml.  For authentication flows we use our own providers, due to internal requirements.</td>
+</tr>
+<tr>
+<td>Not yet</td>
+</tr>
+<tr>
+<td>When running local development we disable theme caching and change the HTTP port to another port in the Docker container. It would be nice to be able to have those as environment variable options instead of having to edit the standalone.xml every release.</td>
+</tr>
+<tr>
+<td>Federation/User Storage Provider completely replaces the internal Keycloak user/roles/password management. The Email Provider has been customized in order to support the messaging for the dual authentication flow (LDAP and legacy company database) provided by the Federation/User Storage Provider. The syncrhonization of the roles from the User Storage Provider to the Keycloak Roles management is not performed during the login in order to avoid some very critical Oracle deadlock in case of concurrent login, but it provided by one asyncronous job that runs inside Keycloak using Quartz.
+From Adapter point of view, the standard way to retrieve and manage the  Keycloak realm .json files into the backend has been replaced by an heavy customized PathKeycloakResolver that is able to manage a real multitenancy in the proper way. 
+The Kerberos Provider has been customized in order to work together with the company authentication database.
+There are some other customizazions.</td>
+</tr>
+<tr>
+<td>None</td>
+</tr>
+<tr>
+<td>No not much</td>
+</tr>
+<tr>
+<td>Just theming mainly. It would be nice to be able to easily modify the email templates as well.</td>
+</tr>
+<tr>
+<td>Yes we have our realms </td>
+</tr>
+<tr>
+<td>No. we do not provide any default installation. it is part of install step to tune them</td>
+</tr>
+<tr>
+<td>Yes, Disabling HTTP, force HTTPS. Saving events. Enabled I18n.</td>
+</tr>
+<tr>
+<td>Browser Flow, Direct Grant Flow</td>
+</tr>
+<tr>
+<td>- We use tcp-unicast for infinispan clustering, since keycloak nodes are running in different subnets which don't allow multicast</td>
+</tr>
+<tr>
+<td>Yes. We've automated the creation of realms with custom clients/roles.</td>
+</tr>
+<tr>
+<td>JGroups configuration</td>
+</tr>
+<tr>
+<td>yes</td>
+</tr>
+<tr>
+<td>Custom Extension (Subsystem)</td>
+</tr>
+<tr>
+<td>We use JDBC_PING for node discovery. A theme (login page)</td>
+</tr>
+<tr>
+<td>Tomcat, instead of JBoss</td>
+</tr>
+<tr>
+<td>Changes to configuration to allow HA/Cluster while running in Docker</td>
+</tr>
+<tr>
+<td>trying to deal with user custom attributes</td>
+</tr>
+<tr>
+<td>No, pretty standard LDAP + Kerberos with user account management app disabled.</td>
+</tr>
+<tr>
+<td>yes, we configure the database, install themes, load custom realm definitions. It's been tricky to get our config jammed into the docker container at times.</td>
+</tr>
+</table>
+</div>
+<h2>Customizations</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>Had to repackage the menu page of the admin UI in order to be able to add an extra item to it.</td>
+</tr>
+<tr>
+<td>Http header removal with apache for external users to prevent kerberos popup</td>
+</tr>
+<tr>
+<td>just for the time a bugfix is not present</td>
+</tr>
+<tr>
+<td>Using overlays </td>
+</tr>
+<tr>
+<td>I really like working with code and contribute code sometimes to several projects, but I do not modify or add code to security and critical applications as keycloak in fear of breaking something.</td>
+</tr>
+<tr>
+<td>Extend of docker image to incluse custom module</td>
+</tr>
+<tr>
+<td>A couple custom SPIs, javascript based auth flow and json freemarker template.  We also had to get a little clever with how we do role naming, since our application requires the use of composite roles, but with some special requirements. </td>
+</tr>
+<tr>
+<td>Used to do more, but recent versions offer pretty much all I need.</td>
+</tr>
+<tr>
+<td>we run custom builds with minor patches to fix immediate KC issues, and have 101 custom Java files under spi-extensions.</td>
+</tr>
+<tr>
+<td>We heavily override some parts of code in the java servlet adapter to match our needs. We don't do any modifications to Keycloak itself</td>
+</tr>
+<tr>
+<td>We are running a fork of the Spring Boot adapter that is modified to support cookie token storage.</td>
+</tr>
+<tr>
+<td>No, did some commits recently but one of them should be discussed with the community</td>
+</tr>
+<tr>
+<td>No.</td>
+</tr>
+<tr>
+<td>No (no need yet)</td>
+</tr>
+<tr>
+<td>We did when we were experimenting, but not for real use.</td>
+</tr>
+<tr>
+<td>We have as a guiding policy avoided forking Keycloak.  And when bugs have affected our use of it, patches have been readily accepted into the standard code base, alleviating any need for maintaining our own version of the basic product.</td>
+</tr>
+<tr>
+<td>Not yet</td>
+</tr>
+<tr>
+<td>Using https://github.com/jboss-dockerfiles/keycloak/pull/100 to run clustered in Kubernetes.</td>
+</tr>
+<tr>
+<td>No need to fork the code. Some providers, like the Email Provider, have been inherited and ovverrided.</td>
+</tr>
+<tr>
+<td>None</td>
+</tr>
+<tr>
+<td>Not currently, haven't found a need to do so as of yet. If I do and it's not a niche scenario, I'll push the code back upstream.</td>
+</tr>
+<tr>
+<td>Just because of private methods or bugs (for example cache bug)</td>
+</tr>
+<tr>
+<td>Not yet - I'd be delighted by a well-made intro/startup for new developers to get a KC development env up and running. Please excuse me if that exists already and I just overlooked it.</td>
+</tr>
+<tr>
+<td>Only the docker image</td>
+</tr>
+<tr>
+<td>- We needed a way to create users without email addresses to integrate data from legacy system
+- Needed to allow users to remove their email address
+- Needed to add realm name to subject parameters for emails
+- Needed to allow user search by userId in admin-console
+- Integration of custom 2FA based on hardware otp generators</td>
+</tr>
+<tr>
+<td>Nope, only custom providers.</td>
+</tr>
+<tr>
+<td>- Created a Session limitor
+- Login page / UsernamePasswordForm - to allow for a simple message to be set from the system admin
+- DisclaimerRequiredAction - forces people to accept a disclaimer before logging in.
+- Prior to the X509 being built in, developed an identity provider that read the cert and linked it to an account based on the cert.</td>
+</tr>
+<tr>
+<td>Yes, plugins and patch, have done an accepted PR one time</td>
+</tr>
+<tr>
+<td>WE have a x509 plugin suited to our needs.</td>
+</tr>
+<tr>
+<td>Yes, but generally we don't fork due to it being a monorepo. If adapters were individual projects we would be more apt to fork and pr changes to the spring related adapters.</td>
+</tr>
+<tr>
+<td>I've started to look at how to package Keycloak as an RPM</td>
+</tr>
+<tr>
+<td>Just one place, I don't remember now</td>
+</tr>
+<tr>
+<td>Custom code to handle a very complex hierarchical role/permissions model for a specific project.</td>
+</tr>
+<tr>
+<td>Our Authentication SPI is based on existing code to make Kerberos authentication conditional (to avoid offering it to hosts not joined to our FreeIPA, as this may trigger IWA login dialog on IE and Chrome under Windows) and lookup LDAP users by krbPrincipalName attribute (to handle cross-realm trusts). We've also modified SAML2 POST redirect page to show ""You are being redirected, please wait..."" instead of blank page.</td>
+</tr>
+<tr>
+<td>not yet</td>
+</tr>
+</table>
+</div>
+<h1>Deployment size</h1>
+<h2>Realms</h2>
+<div class="maxheight">
+<table>
+<tr>
+<th>0-1</th>
+<th>1-2</th>
+<th>2-5</th>
+<th>5-10</th>
+<th>10-50</th>
+<th>50-100</th>
+<th>100-600</th>
+</tr>
+<tr>
+<td>27</td>
+<td>26</td>
+<td>20</td>
+<td>8</td>
+<td>9</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</table>
+</div>
+<h2>Users</h2>
+<div class="maxheight">
+<table>
+<tr>
+<th>0-1000</th>
+<th>1000-10000</th>
+<th>10000-100000</th>
+<th>100000-1000000</th>
+<th>1000000-30000000</th>
+</tr>
+<tr>
+<td>47</td>
+<td>21</td>
+<td>10</td>
+<td>2</td>
+<td>5</td>
+</tr>
+</table>
+</div>
+<h2>Active Users</h2>
+<div class="maxheight">
+<table>
+<tr>
+<th>0-1000</th>
+<th>1000-10000</th>
+<th>10000-100000</th>
+<th>100000-1000000</th>
+<th>1000000-7000000</th>
+</tr>
+<tr>
+<td>52</td>
+<td>20</td>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+</tr>
+</table>
+</div>
+<h2>Logins per hour</h2>
+<div class="maxheight">
+<table>
+<tr>
+<th>0-1000</th>
+<th>1000-10000</th>
+<th>10000-100000</th>
+<th>100000-1000000</th>
+<th>1000000-2888000</th>
+</tr>
+<tr>
+<td>60</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</table>
+</div>
+<h2>Clients</h2>
+<div class="maxheight">
+<table>
+<tr>
+<th>0-10</th>
+<th>10-100</th>
+<th>100-1000</th>
+<th>1000-10000</th>
+</tr>
+<tr>
+<td>51</td>
+<td>27</td>
+<td>5</td>
+<td>1</td>
+</tr>
+</table>
+</div>
+<h1>Project</h1>
+<h2>Project size</h2>
+<div class="maxheight">
+<table>
+<tr><td>Bigger project</td><td>53</td></tr>
+<tr><td>Small project</td><td>38</td></tr>
+<tr><td>Evaluating / development</td><td>21</td></tr>
+</table>
+</div>
+<h2>Describe how you use</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>Oauth provider for multi-tenant single-web application. Also SAML identity brokering.</td>
+</tr>
+<tr>
+<td>Deployed with Docker.
+Used for 
+- securing Spring Cloud microservices + VueJS front
+- securing ERP (Odoo)
+
+We are thinking of using Keyclaok with our internal tools (Gitlab, Jenkins, etc...).</td>
+</tr>
+<tr>
+<td>Enterprice search application</td>
+</tr>
+<tr>
+<td>We use keycloak for netc core application as openid connect</td>
+</tr>
+<tr>
+<td>Provide sso to our internal users in a first realm, evaluating another realm for external users (federation)</td>
+</tr>
+<tr>
+<td>As central IDM for our cloud</td>
+</tr>
+<tr>
+<td>As an IdP included in a bigger federation (eduGAIN) and for local services</td>
+</tr>
+<tr>
+<td>Authn / Authz</td>
+</tr>
+<tr>
+<td>As a SSO Server</td>
+</tr>
+<tr>
+<td>Abstract verious OIDC providers, eg, facebook, google etc</td>
+</tr>
+<tr>
+<td>saml2 / openid connect IdP, with samba AD backend</td>
+</tr>
+<tr>
+<td>SSO Solution for multi tenant cloud application. </td>
+</tr>
+<tr>
+<td>Authorization and Authentication for different websites</td>
+</tr>
+<tr>
+<td>Our company is TrackingSport (www.trackingsport.com) and what we do is to provide support for the timers in  sporting events.
+We are not a timekeeping company, but we provide services to the timekeepers so that they can publish online to Internet the times of passage through the control points.
+I do not know if you know anything about timing, so I'll try to explain it in a few simple words, although you can look at the websites of companies that provide timing tools such as Chronotrack or Mylaps, which are sure to explain it better.
+I tell you, the athletes have placed a passive disposable chip stuck on the bib that identifies them. At several control points, antennas or mants are placed that activate the chip when it passes over it. The chip responds with a signal and the system records the moment in which that signal has been produced (in fact it is more complex, but in a simple way it is like that).
+We are connected in a network with the timing system that sends us the time of passage of the chip, we process that chip and that time to assign it to an athlete and we publish on our web page the passage of the athlete. We also publish it in our mobile app and make a publication on the athlete's wall on facebook and twitter (previously they must have registered, of course).
+This system is complemented by an enrollment platform and an exclusive application for managing the profile of the athlete where they can see the results in all events, they can upload the documents needed to register for an event (medical certificate, parental permission, etc.).
+We use keycloak to access the registration portal and profile management.
+
+We have recently added another product to our system (www.pul-sos.com, although the web is not yet fully translated into English yet). It is a bracelet that athletes (or any other person, we have in fact provided coverage to an Alzheimer's disease association) for their safety. It is a silicone bracelet that has a unique QR code engraved. The athletes enter their profile and can incorporate the medical or emergency data they want.
+In case of accident, loss or any circumstance in which the person is not able to respond, the paramedics (or anyone who can help them) can read the QR and a page with all the data of the person is presented. Here they can indicate previous illnesses, allergies, contact persons, etc.
+The access to this portal for managing the profile and all the data that the user wants to appear when someone reads the QR is controlled by keycloak.</td>
+</tr>
+<tr>
+<td>Used for simulating customers auth infrastructure (Saml Idp, etc...)</td>
+</tr>
+<tr>
+<td>SSO for public web applications @ SKF.com. Replacing proprietary solution.</td>
+</tr>
+<tr>
+<td>auth server in a microservice landscape</td>
+</tr>
+<tr>
+<td>Sso</td>
+</tr>
+<tr>
+<td>Basic auth + account pages.</td>
+</tr>
+<tr>
+<td>I integrated it into JHipster!</td>
+</tr>
+<tr>
+<td>Oidc, oauth2 used to auth customers. Social login, forgotten password, token exchange, 3rd party access governance</td>
+</tr>
+<tr>
+<td>As OAuthZ and IdP for microservices</td>
+</tr>
+<tr>
+<td>I am using Keycloak as SAML provider to use several open source projects like gitlab, nextcloud and rocket.chat at the same time.</td>
+</tr>
+<tr>
+<td>SaaS SSO</td>
+</tr>
+<tr>
+<td>As openId server for SPA app with MS active directory </td>
+</tr>
+<tr>
+<td>To provide an end-user login database and API.</td>
+</tr>
+<tr>
+<td>To protect our APIs with JWT and ""outsource"" our entire access management in a different product. We currently have Keycloak integrated in a web-based project and in a mobile application. For our web-based application, we had to create multiple custom authenticators to support 2FA over SMS and for username/password validation to support our very unique structure within our countless LDAP instances. We're running two clusters of Keycloak instances for our protected APIs.</td>
+</tr>
+<tr>
+<td>IAM</td>
+</tr>
+<tr>
+<td>As identity-broker (and provider), to manage user groupe and role. As PDP for dynamic policy</td>
+</tr>
+<tr>
+<td>Authentication (end users and backoffice)</td>
+</tr>
+<tr>
+<td>We are a startup company building a cloud-based platform to provide business-level services for others to build their SaaS cloud applications. We are using Keycloak as the code authentication service. </td>
+</tr>
+<tr>
+<td>We are using Keycloak to evaluate if it fits in our requirement to implement modern Authentication patterns and there by achieving SSO.</td>
+</tr>
+<tr>
+<td>As a user database using the security providers</td>
+</tr>
+<tr>
+<td>Using it for authentication of Java EE apps and in the future want to use it for SSO as well.</td>
+</tr>
+<tr>
+<td>As an IdP</td>
+</tr>
+<tr>
+<td>Using KC for SSO user authentication, including social media logins.</td>
+</tr>
+<tr>
+<td>Production 24x7 use fronting our SaaS products, www and support websites</td>
+</tr>
+<tr>
+<td>Evaluating Keycloak to use as a authentication standard for my company's future projects</td>
+</tr>
+<tr>
+<td>SSO for several enterprise integration projects</td>
+</tr>
+<tr>
+<td>Web and intranet with kerberos</td>
+</tr>
+<tr>
+<td>We primarily use Keycloak to enable a single sign on between two already existing applications. We also heavily use the admin REST API for pretty much all user management operations.
+
+We also have a third application that currently uses Keycloak because we want to use the 2-factor authentication functionality. In the future we may use Keycloak as a single sign on between this third application and a fourth application.</td>
+</tr>
+<tr>
+<td>SSO, user federation, authorization</td>
+</tr>
+<tr>
+<td>Authentication server for non-user-facing systems</td>
+</tr>
+<tr>
+<td>- As SSO / IdP provider 
+- UsSing the delegated group admin functionality
+- Trying 2FA
+- Federation to AD
+- Testing Federation to (or from) Azure AD / O365
+- API for token verification
+</td>
+</tr>
+<tr>
+<td>User authentication and authorization on several medium sized projects.</td>
+</tr>
+<tr>
+<td>User management and federated authentication </td>
+</tr>
+<tr>
+<td>Central authentication service</td>
+</tr>
+<tr>
+<td>The Keycloak is used as the single entry point for all the services involved in my project</td>
+</tr>
+<tr>
+<td>I use Keycloak to secure frontend (angularjs and angular 2) applications. Also for secure restful java services. And sometimes I use Keycloak to secure Java Server Faces applications</td>
+</tr>
+<tr>
+<td>(1) As a single sign for the company's internal applications. (2) As building block for a authentication gateway.</td>
+</tr>
+<tr>
+<td>Keycloak manages user identities in our system. We leverage social login, email validation, two factor auth and all the other features.</td>
+</tr>
+<tr>
+<td>For big production project</td>
+</tr>
+<tr>
+<td>Keycloak manages user identities in our system. We leverage social login, email validation, two factor auth and all the other features.</td>
+</tr>
+<tr>
+<td>I'm implementing Redhat SSO in the Company</td>
+</tr>
+<tr>
+<td>Authentication solution for our microservice architecture with different directory servers and own user federation providers</td>
+</tr>
+<tr>
+<td>Centralized oauth2 authentication server for many small applications</td>
+</tr>
+<tr>
+<td>We want to use keycloak to integrate SSO with Google and our user db. </td>
+</tr>
+<tr>
+<td>different projects, e.g. IdP for the Austrian Medical Counsil (ab 60.000 users)</td>
+</tr>
+<tr>
+<td>Keycloak is the IdP for authenticating with our locally developed Open OnDemand application as well as IdP for a local install of XDMoD.</td>
+</tr>
+<tr>
+<td>As an authenticating server (replacement from shibboleth IDP)</td>
+</tr>
+<tr>
+<td>Authentication gateway</td>
+</tr>
+<tr>
+<td>As a central IAM for a larger service cluster</td>
+</tr>
+<tr>
+<td>Multiple projects, from large to small and also in house. Primarily (when in development) used as an SSO for microservices (with keycloak.js) with SAML auth provided by ADFS. When in production multiple auth mechanisms are used, including SAML, user/pass, AD, PKI (client certificates). We only user coarse roles, the rest of auth is defined by the (final) app itself, based on user id from the access_token. There is no communication between apis and Keycloak, the access_token is passed as auth header.</td>
+</tr>
+<tr>
+<td>Storebrand is a provider of financial services, particularly retirement savings, but also bank, insurance and fund management.  We therefore need a high degree of control over the user's login process, and the assurance of authenticity.
+
+Keycloak is a good fit as the broker between external and internal identity providers, and our applications in an OpenID Connect landscape.  Users log in through federated services we subscribe to, such as Norwegian BankID, and are issued tokens with scopes and authenticity levels (levels of assurance) describing the login process.  These tokens provide security and user customization in a standardized fashion.</td>
+</tr>
+<tr>
+<td>I have two applications (1 SPA with angular, 1 mobile app with ionic 3) and API with spring boot. I use keycloak to delegate the authentication and focus myself to business.</td>
+</tr>
+<tr>
+<td>Integrate as authentication layer into a micorservice environment</td>
+</tr>
+<tr>
+<td>SSO platform</td>
+</tr>
+<tr>
+<td>Login solution for our customers to login to our web app and as an internal login solution for employees to access our administration tools. We use the master realm to register clients (relying parties), and then use other realms registered as identity providers for great separation between our customers.</td>
+</tr>
+<tr>
+<td>SSO Identity Server for the company web solution called STREAM</td>
+</tr>
+<tr>
+<td>Authentication for Spring Boot Web Application</td>
+</tr>
+<tr>
+<td>We use it for different projects, big and small. Mostly for the easy authentication and authorization integration, not so much (yet) for the SSO.</td>
+</tr>
+<tr>
+<td>Central IdP for my Cloud Services behind https://www.stickiebox.org</td>
+</tr>
+<tr>
+<td>We would like to use it as an SSO provider for our Java and .NET applications. </td>
+</tr>
+<tr>
+<td>We use it for SAML2, OAUTH and SSPR with some profile management (Modify FIRST, LAST NAME)</td>
+</tr>
+<tr>
+<td>We are using it in lab, in the future is implement it on the VoIP solutions that we have.</td>
+</tr>
+<tr>
+<td>We use it on a first hand as the central authentication system for customers of a major luxury and goods company and also on a second hand as the authentication system for its employees.</td>
+</tr>
+<tr>
+<td>We use Keycloak as a centralized authentication service across different product of ours.
+
+Each product is a web application that has 1 keycloak client setup respectively. SSO is naturally achieved because login session is maintained under keycloak service's domain.</td>
+</tr>
+<tr>
+<td>SSO for all Web-Apps</td>
+</tr>
+<tr>
+<td>IDP for web applications. This is a pre-requisite we used for testing our solution and document in case our customers do not have any idp available.</td>
+</tr>
+<tr>
+<td>We use it as authentication provider and proxy in a number of projects</td>
+</tr>
+<tr>
+<td>Currently we use it as an authentication server, we are planning that it will be totally our authorization server.</td>
+</tr>
+<tr>
+<td>to authenticate wildfly10.1 javaee applications and jax-rs webservices</td>
+</tr>
+<tr>
+<td>I use Keycloak to demonstrate SSO via OpenID Connect </td>
+</tr>
+<tr>
+<td>Keycloak is our Auth service for a multitenant SAAS that will be released soon. Every (or almost every) service in our infra uses it.</td>
+</tr>
+<tr>
+<td>SSO service for Taklane</td>
+</tr>
+<tr>
+<td>OpenID connect for multiple web applications & rest services</td>
+</tr>
+<tr>
+<td>AAA layer</td>
+</tr>
+<tr>
+<td>OpenId Connect for some internal and external business applications
+sometimes binded to AD, sometimes auto-enroled internal users
+Both authentication and authorizations are used (have not tested UMA 2.0 yet but interesting)
+Have some plugins for lacking functions : custom healthcheck json WS, email and SMS OTP, user account validity period</td>
+</tr>
+<tr>
+<td>we are using it at the Brazilian's state of Parana Labor Justice (portuguese name is Tribunal Regional do Trabalho da 9 região ) -> this is our main site: https://www.trt9.jus.br/portal/ . We started using Keycloak when we were looking for an option to migrate out of CAS version 3 ( https://www.apereo.org/projects/cas ) .
+
+Currently it is used in all of our java web systems, and we even managed to migrate our legacy systemS to it in order to demise Apereo CAS v3. In fact we use RHSSO as we are Red Hat clients.
+
+Our main backend is AD/Ldap, but we also have an external public application that has around 30.000 accounts (you can see it here with our customized layout and even go to the register screen ->  https://www.trt9.jus.br/auth/realms/PUSH/protocol/openid-connect/auth?response_type=code&client_id=push&redirect_uri=https%3A%2F%2Fwww.trt9.jus.br%2Fpush%2Fprivado%2Fprocessos.xhtml&state=7a6368a1-2561-4891-9ad2-a50e3afe630b&login=true&scope=openid );  we also use it as a federation that is connected to another regional Labor Justice so our users can login with their AD accounts on their system (they are using keycloak).</td>
+</tr>
+<tr>
+<td>SSO for our SaaS offerings</td>
+</tr>
+<tr>
+<td>We use it as a customer facing multi-brand(multi-realm) IDP. Also we use it for internal administrative apps by uitlizing LDAP Federation.</td>
+</tr>
+<tr>
+<td>Company SSO for REST Webservices</td>
+</tr>
+<tr>
+<td>We use Keycloak as our identity provider (OpenID Connect) and SSO. Currently 2 our products are using Keycloak and we have plans to migrate the rest of them.</td>
+</tr>
+<tr>
+<td>SSo SaaS integeration </td>
+</tr>
+<tr>
+<td>In multiple projects I have used keycloak to authenticate the users of a Spring application and for the current project I am using roles and groups in keycloak to authorize users for specific actions.</td>
+</tr>
+<tr>
+<td>Exploring alternatives to Azure B2C and more costly solutions such as Auth0 Enterprise in Spring Boot Applications.  We're a small company that requires Enterprise level features, but for whom the Enterprise pricing is simply out of reach.</td>
+</tr>
+<tr>
+<td>1) SSO for a small nonprofit, integrated into FreeIPA, with Confluence for collaboration and self-service password management (planned email deployment in the future)
+2) SSO for my homelab, integrated into Active Directory, used with Confluence, Google Apps, self-hosted GitLab, AWS, and WordPress</td>
+</tr>
+<tr>
+<td>We use Keycloak in many projects. The biggest usage is for managing the user identities of the web portal of a bank.</td>
+</tr>
+<tr>
+<td>Providing single-sign across numerous self-serving projects, federated off to Office365 and LDAP. </td>
+</tr>
+<tr>
+<td>Open ID Connect</td>
+</tr>
+<tr>
+<td>Authentication and identity federation</td>
+</tr>
+<tr>
+<td>Identity and authentication server</td>
+</tr>
+<tr>
+<td>IDAM for a number of custom developed Saas offerings. Run as docker container, generally on AWS.</td>
+</tr>
+<tr>
+<td>As an identity server for public e-services to store users accounts and provide SSO</td>
+</tr>
+<tr>
+<td>Keycloak handles single sign-on for 15+ (and growing as we adjust our older apps to support SSO) web apps used by 1500 students and 100 employees of our department. We use Keycloak only to perform authentication via SAML2 - our services obtain all the other information directly from FreeIPA-based LDAP (based on authenticated user unique ID), rather than rely on assertions with attribute values; we have also an external user self-service portal for account management (password changes and lost password recovery, email updates).</td>
+</tr>
+<tr>
+<td>Institutional SSO (Internal & External SAML/OIDC services)</td>
+</tr>
+<tr>
+<td>I am using Keycloak as an alternative to Auth0 for my open source SaaS project (www.havengrc.com and https://github.com/mappamundi)</td>
+</tr>
+</table>
+</div>
+<h1>Deployment</h1>
+<h2>Deployment method</h2>
+<div class="maxheight">
+<table>
+<tr><td>Standard ZIP installation (old school)</td><td>40</td></tr>
+<tr><td>Docker</td><td>31</td></tr>
+<tr><td>Kubernetes</td><td>16</td></tr>
+<tr><td>AWS</td><td>7</td></tr>
+<tr><td>OpenShift</td><td>5</td></tr>
+<tr><td>Puppet forge wildfly , followed by running a custom java program that configures it</td><td>1</td></tr>
+<tr><td>Kubernetes on AWS</td><td>1</td></tr>
+<tr><td>Docker by Clever Cloud</td><td>1</td></tr>
+<tr><td>Puppet - https://forge.puppet.com/treydock/keycloak</td><td>1</td></tr>
+<tr><td>docker-compose at the moment, but shifting to Kubernetes / OpenShift</td><td>1</td></tr>
+<tr><td>Okta :)</td><td>1</td></tr>
+<tr><td>several installations for different customers - OpenShift and ""old school""</td><td>1</td></tr>
+<tr><td>Ansible</td><td>1</td></tr>
+<tr><td>zip + docker</td><td>1</td></tr>
+<tr><td>Going to switch to Docker soon, but now am using ZIP.</td><td>1</td></tr>
+<tr><td>docker and standard zip</td><td>1</td></tr>
+</table>
+</div>
+<h2>DB</h2>
+<div class="maxheight">
+<table>
+<tr><td>PostgreSQL</td><td>56</td></tr>
+<tr><td>MySQL</td><td>18</td></tr>
+<tr><td>SQL Server</td><td>8</td></tr>
+<tr><td>Oracle</td><td>8</td></tr>
+<tr><td>MariaDB</td><td>7</td></tr>
+<tr><td>MariaDB Galera</td><td>1</td></tr>
+<tr><td>Percona's MySQL server implementation</td><td>1</td></tr>
+<tr><td>Solr, HBase</td><td>1</td></tr>
+<tr><td>files, the ldap users are not synced</td><td>1</td></tr>
+<tr><td>Cloud SQL</td><td>1</td></tr>
+<tr><td>Postgres but I would use MongoDB to keep the same DB as my API</td><td>1</td></tr>
+<tr><td>default</td><td>1</td></tr>
+<tr><td>Integrated database</td><td>1</td></tr>
+<tr><td>DB2</td><td>1</td></tr>
+<tr><td>several installations for different customers - MySQL and PostgreSQL</td><td>1</td></tr>
+<tr><td>Informix</td><td>1</td></tr>
+<tr><td>embeded one</td><td>1</td></tr>
+</table>
+</div>
+<h2>Hardware</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>AWS EC2</td>
+</tr>
+<tr>
+<td>Vmware guest</td>
+</tr>
+<tr>
+<td>Linux Debian and CentOS based</td>
+</tr>
+<tr>
+<td>Docker Swarm in 12 cores VM 16GB RAM</td>
+</tr>
+<tr>
+<td>Intel Xeon Server</td>
+</tr>
+<tr>
+<td>VM, run on kvm/qemu with ceph storage</td>
+</tr>
+<tr>
+<td>Shared VPS with intel Xeon  processor </td>
+</tr>
+<tr>
+<td>VMware virtual machine</td>
+</tr>
+<tr>
+<td>Amazon EC2 medium</td>
+</tr>
+<tr>
+<td>Red Hat 8 cores 32GB</td>
+</tr>
+<tr>
+<td>Heroku, Cloud Foundry, AWS</td>
+</tr>
+<tr>
+<td>New AWS, old on premise VMware 12 x instances 4 core x 8 gb</td>
+</tr>
+<tr>
+<td>Ubuntu VM on Windows Server HyperV.</td>
+</tr>
+<tr>
+<td>EC2</td>
+</tr>
+<tr>
+<td>Openshift</td>
+</tr>
+<tr>
+<td>AWS EC2</td>
+</tr>
+<tr>
+<td>Docker swarm</td>
+</tr>
+<tr>
+<td>AWS EC2 C5 2X large instances</td>
+</tr>
+<tr>
+<td>AWS within an Openshift cluser, so our clustering is using the Kubernetes ping, which was also challenging to figure out. Better doc would be useful. </td>
+</tr>
+<tr>
+<td>Ubuntu</td>
+</tr>
+<tr>
+<td>Intel Xeon</td>
+</tr>
+<tr>
+<td>AWS Elastic Beanstalk (EC2 2x t2.medium), very low utilization</td>
+</tr>
+<tr>
+<td>Debian</td>
+</tr>
+<tr>
+<td>3 AWS ECS t2.large instances</td>
+</tr>
+<tr>
+<td>various virtual machines in private or public clouds</td>
+</tr>
+<tr>
+<td>AWS</td>
+</tr>
+<tr>
+<td>AWS cloud server Ubuntu</td>
+</tr>
+<tr>
+<td>Hetzner's cloud servers</td>
+</tr>
+<tr>
+<td>Bi Xeon CentOs 12 Go</td>
+</tr>
+<tr>
+<td>Rhel 7 over Vmware</td>
+</tr>
+<tr>
+<td>AWS Cloud EC2 instances</td>
+</tr>
+<tr>
+<td>VMware VMs</td>
+</tr>
+<tr>
+<td>VmWare</td>
+</tr>
+<tr>
+<td>Not gonna describe</td>
+</tr>
+<tr>
+<td>No idea. Everything is virtualized. Either linux or in one instance Windows. New installation using Docker is rolling out.</td>
+</tr>
+<tr>
+<td>Virtualized Intel Xeon / Dockerized Deployment</td>
+</tr>
+<tr>
+<td>Virtual server 4 cores 16 GB memory</td>
+</tr>
+<tr>
+<td>Running on GKE in Google Cloud VMs.</td>
+</tr>
+<tr>
+<td>KVM, CentOS minimal, Docker, Rancher / Kubernetes</td>
+</tr>
+<tr>
+<td>Virtual Machines</td>
+</tr>
+<tr>
+<td>XenServer 7.1 w/ Ubuntu 16.04</td>
+</tr>
+<tr>
+<td>A docker container</td>
+</tr>
+<tr>
+<td>bare metal servers with esx</td>
+</tr>
+<tr>
+<td>VM 6GB RAM</td>
+</tr>
+<tr>
+<td>Local machines, Cloud machines from various sources</td>
+</tr>
+<tr>
+<td>Docker on Ubuntu 16.04</td>
+</tr>
+<tr>
+<td>VMs, ubuntu, 2ghz, 16gb (keycloak usually takes between 1-2gb)</td>
+</tr>
+<tr>
+<td>Google Cloud's n1-standard-2.</td>
+</tr>
+<tr>
+<td>32 GB / 8 CPU  virtual machine running off of a VMWare hypervisor</td>
+</tr>
+<tr>
+<td>intel</td>
+</tr>
+<tr>
+<td>Nutanix</td>
+</tr>
+<tr>
+<td>Virtualizes server</td>
+</tr>
+<tr>
+<td>VM</td>
+</tr>
+<tr>
+<td>RHEL on VMWare vms in production, docker containers in dockerswarm for nonproduction</td>
+</tr>
+<tr>
+<td>Blase Server</td>
+</tr>
+<tr>
+<td>Cluster of Kubernetes nodes in Google Cloud Platform</td>
+</tr>
+<tr>
+<td>One is running on a KVM VPS; another is running on an oVirt VM on E5-2630L v2 and 1 GB of RAM</td>
+</tr>
+<tr>
+<td>AWS Instances</td>
+</tr>
+<tr>
+<td>cloud</td>
+</tr>
+<tr>
+<td>Gcp k8s nodes</td>
+</tr>
+<tr>
+<td>x86-64</td>
+</tr>
+<tr>
+<td>AWS EC2</td>
+</tr>
+<tr>
+<td>VMs: 2x 3GB RAM 2 vCPU for app cluster, 3x 2GB RAM 1 vCPU for DB cluster</td>
+</tr>
+<tr>
+<td>OpenShift</td>
+</tr>
+</table>
+</div>
+<h2>Clustering</h2>
+<div class="maxheight">
+<table>
+<tr><td>No, single node</td><td>53</td></tr>
+<tr><td>Yes, within in a single cluster</td><td>45</td></tr>
+<tr><td>Yes, with multiple data centers</td><td>8</td></tr>
+</table>
+</div>
+<h1>Comments</h1>
+<h2>Experience</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>Very good.
+Only IDP initiated login from SAML brokers with an oauth application is not yet working.</td>
+</tr>
+<tr>
+<td>+ Good product with fairly good doc.
++ Rich admin interface
++ Easy to deploy with Doc
+
+- Multitenant documentation is not rich enough (ie how microservice can know which realm was used as they receive only bearer token from header)
+- Client config export does not contains role
+- We miss a complete realm & client export from UI 
+- Move adapters out of main keycloak project so you could support for example Spring Boot 2 with Keycloak 3.</td>
+</tr>
+<tr>
+<td>good documentation but examples are not extensive</td>
+</tr>
+<tr>
+<td>Is very Simpple to configure and easily integraed with .net core applicarion. However, the ba thing is we hosted keycloak in ssl using revrse prxoy nginx and also hosted net core applciation in https using reverse proxy https.Now keycloak login page is giving invalid redirect url as redrect url is going to http instead of https. and We are stuck here.</td>
+</tr>
+<tr>
+<td>The good : Quite easy to implement, the ldap connector is very flexible. The less good : would love a repository for easier install/upgrade. The cas protocol is really missing and still heavily used by most of our apps, i use the cas plugin found on github, works well and should be integrated in the product.
+More flexibility with kerberos auth to avoid popups with external users/computers (exception with ip ranges or user agent as MS ADFS does), i have to implement this with apache headers manipulation.
+</td>
+</tr>
+<tr>
+<td>Good standardization, should be able to handle more realms in parallel because of multi-tenancy</td>
+</tr>
+<tr>
+<td>Very flexible product (SPI & Co), but sometimes some enterprise grade features like proxy support are missing. This will be solved in the 4th version as I know.</td>
+</tr>
+<tr>
+<td>Setting up HA mode in Kubernetes is complicated; we wrote own API Client in go</td>
+</tr>
+<tr>
+<td>Quit good </td>
+</tr>
+<tr>
+<td>Generally very good. Would like some more material around deploying customizaations, eg themes and extensions, in an openshift environmen.</td>
+</tr>
+<tr>
+<td>little docs on this relative simple use case, and mailinglist questions on this basic level usage are often ignored, lively discussion on more advanced topics</td>
+</tr>
+<tr>
+<td>So far great. We are using simple features to authenticate users and validate roles </td>
+</tr>
+<tr>
+<td>It works (+), Easy integration (+), unclear update documentation (-)</td>
+</tr>
+<tr>
+<td>At first, we had real problems because Keycloak lacked some necessary services for us, but we adapted and improved our integration with Keycloak as the versions advanced. In the actual version of Keycloak there are many functions that we do not use, although being able to have a theme in the client and not the real level has been for us the last best contribution. Even now we have incorporated the possibility of authentication with X509 certificates.
+The bad part was the beginning, because the learning curve is not trivial. But now, all projects that need authentication are based Keycloak.
+The best part is undoubtedly the ease of use for our users and the ability to tunning the theme for each project in a simple way. </td>
+</tr>
+<tr>
+<td>Very good \o/</td>
+</tr>
+<tr>
+<td>Supportive community, good and fast backend. Admin console hard to understand and lacks functionality. Admin UI needs a more visual hierarchy for roles. Bad performance with many roles. </td>
+</tr>
+<tr>
+<td>+opensource, +active community, +extensibility, -no zero downtime deployments, -highly depending on cache</td>
+</tr>
+<tr>
+<td>can't really give an objective answer, because i like the project from the very start :)</td>
+</tr>
+<tr>
+<td>Easy peasy</td>
+</tr>
+<tr>
+<td>Excellent, great system. Using community, only niggle is schematic management </td>
+</tr>
+<tr>
+<td>+ Lot of features + Easy to use - missing a full working dynamic client registration - lack of software statements - the concept of roles must be misused for scopes + the source is easy to read and understand + OSS + Adapters - client templates and inheritance not working properly or as expected</td>
+</tr>
+<tr>
+<td>Keycloak made logging in to the services much easier as my users can use the same credentials for all services. The only thing I am missing would be CAS support and single log out. Installation is quite easy, but if GLUU had official and working docker support, I would rather be using GLUU. But I thing I am going to stay with keycloak for the next couple of years as I got quite familiar with it over the time. Anyways, thanks a lot for developing this great piece of software!!!</td>
+</tr>
+<tr>
+<td>IdP Broking us good.</td>
+</tr>
+<tr>
+<td>Good wish to have import capability for LDAP confit via admin ui </td>
+</tr>
+<tr>
+<td>Setup and config is god-awful - in hindsight I would choose a simple little binary that just provided the oauth api.</td>
+</tr>
+<tr>
+<td>Improved our performance significantly. We used to have hand out autogenerated tokens which had to be validated on the service which served the tokens. Meaning that for each API call, our authentication service was called to validate the token. Developing custom authenticators went well. Developers in our company were skeptical at first but Keycloak has definitely proven itself. The community is very active as well which is a huge plus.</td>
+</tr>
+<tr>
+<td>API docs are cryptic, some fields in  UI are hardly explained. But I love the broad functionality and quality.</td>
+</tr>
+<tr>
+<td>Very good</td>
+</tr>
+<tr>
+<td>Tuning and scaling is hard - little info available </td>
+</tr>
+<tr>
+<td>We are primarily using Keycloak to provide the Oauth2/OIDC authentication functionality for our microservice platform. We are not using it as the main repo of our user base, but only as a shadow of our user store in order authenticate users and provide bearer tokens, so we have implemented a few customizations in order to support our needs.  
+
+Probably our most useful customization is that since our user interface is a React-based SPA, the requirement to do full-page redirects when authenticating a user is really antithetical to how an SPA needs to function. Not only does it require page changes, but is really limiting from a design and branding perspective since our customers will not have access to the keycloak server to customize themes. It also seems a little circa 2003. So I implemented a custom freemarker-based theme that returns json instead of the html. This allows our SPA to be able to better use and control that flow of data from Keycloak while still handling the redirects as needed and our customers will be able to implement their own UI designs without having to make changes to the Keycloak server.  A suggested enhancement would be to have an option to return actual json rather than having to shoehorn it into a freemarker templates.
+
+Additionally, we support SMS based 2fa and because of the aforementioned use of an SPA, all of our multifactor support has to happen within our SPA, so we cannot use any of the Keycloak multifactor features since they are so ingrained with the redirect-based authentication flow. 
+
+We are using many Keycloak realms to support our multi-tenant needs and Keycloak clients to represent our high level resources.  I think the most challenging thing about Keycloak is that many of the features related to clients and authentication flows are not very intuitive and took a lot of work to understand just how they function and their limitations. We also tried to user the authorization features of Keycloak for resource protection, but we found them to be rather limiting and not at all friendly to use.   So we only use Keycloak for user role assignments and then do the authorization of roles-based access externally, currently using Apiman with a custom plugin for supporting finer grained permissions. The authorization aspects of Keycloak while broad still feel very 1.0ish and not very useful. 
+
+I do appreciate the availability  of the javascript-based authentication module. Though I have built some custom SPIs, the availability of the script module has dramatically increased our efficiency and flexibility for being able to quickly make changes. Two suggestions for that script module would be to allow access to the HTTP response so that we can set our own application cookies or other custom headers and it would be great if there were built in objects to make restful calls from within the script that could be integrated with the Keycloak  authentication functionality for passing bearer tokens, etc. At the moment, that all has to be done using custom javascript which is tedious and prone to error, but it seems like such a waste to not be able to take advantage of all of the Resteasy functionality that already exists under the covers.</td>
+</tr>
+<tr>
+<td>So far except few problems, it is going really great. Keycloak is really a great product with lot of out of the box features. But it would be great if some documentation links are fixed and make the community discussions more readable. Overall it is great product.</td>
+</tr>
+<tr>
+<td>Good: Its ease of installation and configuration.
+Bad: I had to make a client for the REST interface, because my server was not Wildfly. The CLIENT REST project works very well but in Wildfly because it already has all the dependencies.</td>
+</tr>
+<tr>
+<td>I used it for a few projects when it was still a young project. Recently used it again and was very happy with it.</td>
+</tr>
+<tr>
+<td>So far, so good</td>
+</tr>
+<tr>
+<td>Easy to set up and integrate, in particular w/ Spring Boot.
+Recently we had some problems wrt. to Spring Boot 2: we were missing bearer token support w/ oauth2.</td>
+</tr>
+<tr>
+<td>Mostly stable platform on which we've been able to easily add our own extensions as needed.  KC upstream devs haven't given as much thought to zero-downtime deployments as we need, and jira ticket responses can take an indeterminate length of time.</td>
+</tr>
+<tr>
+<td>Have used Keycloak with Wildfly and Spring Boot 1 projects. Struggeling with using Keycloak with Spring Boot 2.</td>
+</tr>
+<tr>
+<td>Good: integration, stability - Bad: Features around 2FA, Marketing material</td>
+</tr>
+<tr>
+<td>Too young</td>
+</tr>
+<tr>
+<td>It was pretty easy to start playing around with Keycloak because of how easy it is to just set up a standalone instance. We use the Java servlet adapter, which also works out of the box making it easy to see results fast.
+
+I think the admin GUI is easy to understand, and easy to use, and the import functionality build in is very helpful. Especially in our case where our applications are white labeled and we have to create very similar realms whenever a new white label is added.
+
+Working with the admin REST API was not great. I feel like the API is not well documented, and the behaviour is sometimes not predictable. There are also cases where the format of returned errors is randomly different, making it hard to handle these.
+
+A more recent issue we ran into is using internationalization with Keycloak. While this functionality works, it's difficult to integrate when your application doesn't use the user management functionality in Keycloak. So if a user decides to change the language on our application, there is not much we can do to actually let Keycloak know. We can use the REST API, but that doesn't help because the KC_LOCALE cookie will still be set, meaning the change will be undone when the user logs in again.</td>
+</tr>
+<tr>
+<td>Relatively easy to set up, even if the documentation is a bit patchy in places. It was very easy to migrate user accounts from Stormpath to Keycloak. Good standards compliance. Dramatically bad Spring integration, that cost us a _lot_ of extra work because it was not mentioned in the docs that a lot of configuration has absolutely no effect in the Spring adapter (most notably cookie support, which we relied on heavily due to how our previous setup in Stormpath was done).</td>
+</tr>
+<tr>
+<td>Good:
+- Easy to setup and maintain
+- Performant
+- Flexiable
+- Out of the box adapters
+Bad:
+- Documentation is lacking (Details, API, session/token timeouts)
+- 2FA does not remember devices
+- 2FA does not support mobile notifications
+- 2FA does not support hardware tokens
+- Spring adapter doesn't support cookie store
+- No captcha on login
+
+</td>
+</tr>
+<tr>
+<td>Good.</td>
+</tr>
+<tr>
+<td>The Good - Out of the box solution which met enterprise federated authentication needs. We have customized Keycloak solutions running on Helion OpenStack and AWS. Responsive OSS community. 
+The Bad - Documentation was not exhaustive during 1.x releases. Many use cases were figured out by trial and error. Especially SAML configurations while integrating with 3rd party services. No easy way to search through mailing list to see if others have faced similar issues. Its 2018 - Keycloak needs a forum or Stack Exchange!</td>
+</tr>
+<tr>
+<td>Can be hard to setup and really hard to migrate setups.  The flexibility is AMAZING - just really hard to figure out the right settings to make everything work.  </td>
+</tr>
+<tr>
+<td>It is just awesome, easy to create the SPIs or themes, very powerful identity and access manager but the roadmap or milestones of the Keycloak project is not really clear (like, when to expect the next versions, etc.) </td>
+</tr>
+<tr>
+<td>The good part of keycloak is that it allows me to secure my applications without to much work and it uses standards like oauth2, openid etc. But there are some bad parts , for example I'd like to use keycloak on  java JMS, java websockets but there isn't official support for it. Besides, maybe the most recurrent problem I have to face is that most of my software projects work in the same way that JBOSS APIMAN works; I mean my projects usually have organizations and I have to give different roles or scopes in different organizations using the same realm. Is not easy to abstract that, and like Apiman I usually create my own roles In a different database. Maybe there are other ways but that's what I usually do. </td>
+</tr>
+<tr>
+<td>Good. But I was not able to understand how to use JavaScript based custom policies</td>
+</tr>
+<tr>
+<td>Easy setup, good client libraries (both Java and JavaScript). Provisioning an empty instance improved over time with the admin API. </td>
+</tr>
+<tr>
+<td>Good but there is a lack of documentation on the API part</td>
+</tr>
+<tr>
+<td>Very easy to implement in apps, but is not good what the autorization feature is en Preview, when is Final implementation of UMA 2.0</td>
+</tr>
+<tr>
+<td>Good: easy to setup, good out-of-the-box integration with directories
+Bad: the issuer of the token is automatically determined by URL, seems to be some kind of religious war not to make it configurable </td>
+</tr>
+<tr>
+<td>Very good!</td>
+</tr>
+<tr>
+<td>Good: Open source, active
+Bad: No community (atleast we are unaware), complex (infinispan is new and adds learning curve), stateful (in cloud this might be a problem in production)</td>
+</tr>
+<tr>
+<td>good: stable, easy setup, easy configuration</td>
+</tr>
+<tr>
+<td>API documentation leaves a lot to be desired.  Documentation lacks descriptions of various fields and outputs.</td>
+</tr>
+<tr>
+<td>Good: easy to use and extend, conform to standard, open source, fits our needs. 
+Bad: all keycloak development doesn't seem to be open (some issues can't be viewed, some reference in dev/usr ML seems to come from prior discussion in private mail)</td>
+</tr>
+<tr>
+<td>Good, but hard to change flows and implement own features</td>
+</tr>
+<tr>
+<td>Easy to setup, but a bit too focused on adapters for Java :-) Trying to find the time to implement the needed bits for Golang</td>
+</tr>
+<tr>
+<td>In love with it. We also developed plugins, so really have no problem with the system. As it is a central point of the system it gets hit pretty hard. So for login I wish it were a bit faster under stress but understand why it is the way it is. Also maybe update the login and profile front - end with an SPA instead of full pages with some AJAX.</td>
+</tr>
+<tr>
+<td>We have particularly enjoyed the fast development pace of Keycloak, and how easy it is to extend with new login and onboarding mechanisms.  We have complex requirements for integration with external identity providers.  This requires refinements to the default ""authentication flows"" provided by Keycloak.  And such refinements are very easy to add and verify (albeit with a ""private"" SPI library).
+
+We have also found that having an opensource product simplifies error resolution, and have occasionally been able to provide patches accepted into the Keycloak project faster than a COTS product would have responded.  This simplifies the product management on our end.
+
+The availability of Keycloak / Wildfly is very good.  Over two years, no outages have been caused by failures in the core components.
+
+Off course, the rapid development leads to one of Keycloak's ""cons"".  Burst implementation before deadlines sometimes introduces unnecessary bugs, for instance in PKCE and tab sessions.  These have been resolved quite quickly, though.
+
+Cluster management and High Availability also feels too complicated, and has so far caused the most anxiety during production upgrades.  As we use Keycloak as a standalone product, we would like it as decoupled from Wildfly as possible, with standard configurations suited for Keycloak as the only deployment.  Maybe with a ""keycloak.conf"" type file?
+</td>
+</tr>
+<tr>
+<td>My experience with Keycloak is good. I think the best is that is opensource and we can connect our own database. It's easy to configure. Therefore, It seems not easy to change login template like mobile modern app, and remove fields to registration. In most mobile app we have email, password and confirm password as fields. So with keycloak you have to make some development. Another thing is that I use MongoDB (in local and with Mongo Atlas). I don't know how managing that in prod.
+Is there a way to use auth API with JS applications? To avoid to change templates.</td>
+</tr>
+<tr>
+<td>Good: support for many policies, multi tenant, the user management is good. Bad: it runs on wildfly / jboss which is relatively heavy-weight and our experience with trying to make it highly available were not that succesful (about two years ago).</td>
+</tr>
+<tr>
+<td>Easy to implement SSO platform, however api documentation is not complete</td>
+</tr>
+<tr>
+<td>The good: stable performance, useful API for integration, running in Docker is easy, great with AngularJS. The bad: a bit buggy with multiple logins from different subdomains on the same domain (getting logged off when trying to access a new subdomain in an existing session sometimes), some weird deadlock we've been unable to track down in the communication between the master realm and client realms (very infrequent).</td>
+</tr>
+<tr>
+<td>We have adopted Keycloak since the beginning (v1.3) and we are currently using v1.7 in production. There a porting of our company Keycloak * Providers (Federation, Email, etc...) for version 3.4.* but it is still in beta stage. We are quite satisfied about it even if there were some instability up to version 1.7 that required some workaround inside our Federation Provider.</td>
+</tr>
+<tr>
+<td>I am still learning it</td>
+</tr>
+<tr>
+<td>Easy to setup and integrate in projects. Admin API lacks documentation and some features are not available via the admin API or need to be fetched inefficiently with multiple calls.</td>
+</tr>
+<tr>
+<td>Stable environment, good configurable, some rough ends in rights delegation (not working?)</td>
+</tr>
+<tr>
+<td>So far Keycloak has been an amazing experience. We hope to purchase RH-SSO soon.</td>
+</tr>
+<tr>
+<td>It's a solid product and pretty stable, I think the documentation is pretty good. The area that the documentation was lagging, was the standalone-ha configuration and account creation. It took quite a bit of Google-fu and several hours to get everything working well.
+
+Overall, I like it and am looking into expanding its functionality with roles, account creation into Active Directory, LDAP, etc.</td>
+</tr>
+<tr>
+<td>No bad news, we're testing it since this month</td>
+</tr>
+<tr>
+<td>The good: Keycloak is pretty simple in its usage and integration. Many updates with so many useful features. The bad: testing framework is not available for us and as we developed our own identity provider we can't test it easily. ""entrypoint"" (ways of implementing new feature) are sometimes tough to reach, full copy of a class just to add a line. Adapters need some new features.</td>
+</tr>
+<tr>
+<td>Good:
+- Good documentation for understanding basic concepts of Keycloak. Doesn't need to be an openid-connect expert before diving-in to keycloak and getting to work.
+- Actively processing pull requests, even for documentation repository
+- Open source, source code is easy to find & trace.
+- Responsive mailing list.
+
+Bad:
+- Lack of documentation on how to get information from token for nodejs adapter. (Maybe I should make a PR later?)
+- Javascript adaptor & nodejs adaptor swallows too many exceptions - they are simply caught and not re-thrown. Developers cannot handle token validation failure, cannot catch on the case when keycloak server is down, and so on.</td>
+</tr>
+<tr>
+<td>easy to use</td>
+</tr>
+<tr>
+<td>Very good. Missing few options for authentication (2 factors, etc.) email confirmation ,etc.</td>
+</tr>
+<tr>
+<td>+ nice working software
++ easy to integrate (using Spring[boot] mostly)
++ easy to migrate legacy SW to KC
++ primary use cases pretty obvious
+- the state of the documentation leaves much to be desired and has been mentioned in a number of posts/blogs
+- not up-to-date with current version (3.4.3 refuses to export all 'secrets' for migration - no clue how to get around that)
+- google indexes are swamped with no-longer-existing and old and duplicate documentation locations
+- the general tone of the documentation is light and easy as if almost anything is almost trivial to do. One or two examples (which are really trivial) an from then on one is left in the dark. This is particularly true for API calls of all sorts (...that I came in contact with so far :-), but also for interactive configuration:
+- I am missing a concise list of which KC-defined roles for its various clients allow a user to do exactly what (or prevent her to do something)
+- and lots more
+
+The user interface and documentation around fine-grained admin permissions and policies scores 11 out of 10 in providing an incredibly frustrating user experience. The GUI exposes a maximum of complexity from the underlying implementation, without giving sufficient information to handle the complexity. UUIDs, for instance, are great internally, but in most of the places they are used (in fine-grained), for a user they are obscure references into the void (not searchable afterwards). Please try to attract GUI- and interaction designers to re-do this interface!
+This pattern also affects other parts of the GUI: The event log lists UUIDs of users (instead of their names, perhaps even linking to that user ...), but one cannot *search* in the user window for their UUID. So: search with the browser page by page. But wait: the UUID on the page is abbreviated. So one has to delete the appropriate number of characters from the UUID 'harvested' from the event log. :-(
+
+- Why is it so difficult to find out which users have a specific role/group? 'Users in Role' only lists users having that role *directly assigned*. Composite Roles, Groups or composite groups are not considered.
+Effective roles in the User page (in a tiny space without search capability) list all the roles. But what if I encounter a Role this user should not have any more? There is no way to find out the (potentially multiple) paths this Role reaches this user (how about a list showing up hovering over the role?)
+
+
+(Regarding the next question: we are probably interested, but I'm not the one deciding these matters)</td>
+</tr>
+<tr>
+<td>It's just the best open source IAM solution we never work with.</td>
+</tr>
+<tr>
+<td>Is works. Great SSO. Poor documentation to customize it. My question hasn't been responded in the forum.</td>
+</tr>
+<tr>
+<td>Pros:
+- It is very easy to get started with Keycloak. 
+- User / Admin Documentation is a great help.
+- The provided examples (keycloak-quickstarts) make it easy to adapt Keycloak to own applications.
+- Keycloak is quite robust and runs without problems in production
+
+Cons:
+- SPIs and APIs has very little documentation, which makes it quite difficult to build correct custom integrations.
+- The admin console is missing a global / client role overview. In the admin-console alone it is hard to find out which users have a particular set of roles. One needs to query the Keycloak database for this.
+-  Customizing Keycloak with the CLI is doable but quite cumbersome. It would be great if there was something like a ""Keycloak distribution generator"" where a user could select database vendor, url, (except secrets) etc., desired infinispan clustering approach  (multicast, tcpunicast etc.) - similar to start.spring.io.
+- Currently there is AFAIK no official recommendation about how to structure a Keycloak integration project. Would be great to give some recommendations about structuring a Keycloak integration project.
+Most of the time companies will use stock Keycloak + custom theme + (custom extensions) which are either built into dedicated artifacts that are combined during deployment, or packaged as one big artifact or docker image.
+We're using a combined approach where we have a dedicated keycloak-acme Project that includes the stock Keycloak server and adds themes and a set of custom providers in one build and produces one big artifact / docker image.
+- Realm Import / Export story is not great. When trying to transfer a dev environment to staging/prod it is most of the time quite cumbersome to transfer the settings.
+- When a Keycloak instance is upgraded, old realm configurations keep their old configuration - which is a good thing in general to avoid breaking something... but some settings, like e.g. the default Web Security Headers which changed over time, stay at the old stored (default) value which is potentially insecure by now. It would be great if Keycloak would be able to detect such ""insecure"" defaults from older versions and recommend to use the new (default) settings.</td>
+</tr>
+<tr>
+<td>It's been excellent working with Keycloak. The only drawback (which... made our testing harness a bit ""fragile"") is that any JPA entities on a custom extension are nor hot deployable. So basically, goodbye Arquillian or Cube for testing. :(</td>
+</tr>
+<tr>
+<td>Good integration but Doc can be light</td>
+</tr>
+<tr>
+<td>Great tool, i've integrated Keycloak for my client, and it just worked and saved many cost by discarding an existing propriatary Saml solution</td>
+</tr>
+<tr>
+<td>only A+++++</td>
+</tr>
+<tr>
+<td>Nice : good implementation of OpenId connect, easily customizable with plugins, many parameters and functionalities that help us to adapt to each security policy. Reactive team !
+Bad: not so much ! One main problem is how plugins can modify Angular admin application, some js must be patched and rebased on each release, it can be a pain. Discussing with gravitee.io, also using keycloak, they have an interesting DSL describing UI and a dynamically generated angular UI (maybe they ask for that to Sebastien Blanc).</td>
+</tr>
+<tr>
+<td>All good .</td>
+</tr>
+<tr>
+<td>Good: great documentation, active community, increasing interest. Bad: breaking changes to configuration .xml, poor support for deployment in container-orchestration cluster (k8s), relies on legacy tech (jgroups, infiniband)</td>
+</tr>
+<tr>
+<td>Much of it is good. But, we have had a lot of difficulty with the mono-repo nature of the project. Spring related adapter integrations have had many small bugs and forking+patching+pr'ing is avoided because it's a bit arduous to contribute when the entire codebase for everything is in one repo. We have a lot of issues and problems trying to support 2 major versions of spring boot runtimes with the underlying adapter not able to adapt to that use. Also, there have been a fair number of workarounds we've had to implement to avoid problems with shared httpsession storage using Spring-Session and redis. A core theme of incompatibility is optimizations made by SpringRedisSessionRepository and keycloak classes being transient and not repopulated correctly on deserialization from the distributed store.</td>
+</tr>
+<tr>
+<td>Good and easy integration in application stacks, better administration tools</td>
+</tr>
+<tr>
+<td>The good:
+We have been following the project since 2015 as an implementation of OpenID Connect IDP. We stayed because of the extra features: User management (registration, forgot password, identity broker, etc).
+The first product to use Keycloak was Akvo Lumen and the integration using the JavaScript adapter was easy and straight forward.
+The bad:
+* We understand that this is a community driven project and that RedHat packages and distributes RH-SSO, but not patching security issues it's a big handicap for organization with small budgets. 
+* We had lots of expectations on Authorization services, but at the time we evaluated it (1 year ago) non of the existing APIs (UMA and Entitlement) served our needs. UMA was too 'chatty' and entitlement meant sending huge payloads as HTTP authorization headers.</td>
+</tr>
+<tr>
+<td>Generating the public key was a nightmare for me.</td>
+</tr>
+<tr>
+<td>Most times I find it difficult to find documentation about what I want to do, or I can only find it at an abstract level, which means I have to put a lot of time in it to figure out how it works.
+I have noticed that Keycloak does a nice job security wise and an HTTP security check verifies this.</td>
+</tr>
+<tr>
+<td>Overall the experiences has been positive.  The biggest issue so far has been documentation.  There were also some initial issues with the Docker images taking abnormally long to start.</td>
+</tr>
+<tr>
+<td>- Excellent feature set
+- Low on resource consumption
+- Easy to get going, except for the hurdle of adding a Postgresql JDBC JAR each time it's upgraded (Keycloak would be so much more useful if bundled as an RPM just like most of the other productized open source projects -- this is true of FreeIPA, Dogtag -- I've started to examine the Red Hat source RPMs for RH-SSO to see how it could be done)
+- Documentation of options in UI (e.g., various LDAP sync settings) is sorely lacking
+- Postgresql database connection is not smart enough to reconnect when the SQL server is restarted; seems to require a restart of Wildfly entirely</td>
+</tr>
+<tr>
+<td>The documentation is excellent, the source code is available and there are many examples in the net.</td>
+</tr>
+<tr>
+<td>Overall the experience has been very fruitful, being able to deprecated bespoke implementations and get our teams / project standardized on a reusable pattern.
+
+- Initial issues revolved around the tenancy requirements, though perhaps now sorted with UMA and console permissions, because in a realm you were either and admin or not we ended up having to use many realms per project, which lend  to a users sprawl. 
+
+- The administration for groups could use improvements, as assuming we were to reuse a realm, a single group section across multiple clients / projects would be impossible to manage. One idea would be much like roles which can be realm or client, we could do the same with groups.
+
+- It would be nice to have a few more how-to around using the Authentication Flows. Around scripting and the extent we could customize? How could i say, if you don't have from this ip range, you must MFA? How do a throw out an log when a user is created? Can you block someone from continuing authentication if they don't have a particular role (at Keycloak, rather then client)? .. 
+ 
+- Logging and auditing needs some improvement, it's difficult to workout what user has made the change and what the change was exactly. 
+
+- Some form of on-boarding / approval process for users. 
+
+- Provide some metrics on the internals (statsd, jmx, perhasp prometheus), but essentially instrumentation so we can alert or provide insight on.</td>
+</tr>
+<tr>
+<td>Good: many adapters and flexible
+Bad: Some user guides are not clear enough/outdated</td>
+</tr>
+<tr>
+<td>Good !</td>
+</tr>
+<tr>
+<td>medium, occasionally</td>
+</tr>
+<tr>
+<td>Generally very good, although was a very steep learning curve. Biggest issue was getting Keycloak to run in HA/Cluster while in a docker container. Had to create our own custom Docker images to do this. It would really help if more config options are injectable as environment variables, instead of being 'hard-coded' into config files (e.g. standalone.xml etc)</td>
+</tr>
+<tr>
+<td>just beginning, easy to installa and configure. hardly trying to deal with account management (addind mandatory custom attributes, validating custom attributes)</td>
+</tr>
+<tr>
+<td>Good:
+- works really well in our environment
+- detailed docs, straightforward setup
+- powerful admin console
+- confidence in product quality and reliability
+
+Bad:
+- too many features we don't use
+- a bit unhappy that LDAP federation embeds username in user ID (it seems that LDAP entry unique ID is stored separately, but I would prefer it to be used instead of username)
+- was not able to activate GSS credential delegation
+- sometimes SAML2 post-auth redirection (JavaScript-sent POST form) gets stuck at blank page for a few seconds, which is a bit confusing for users
+- (not really an issue with Keycloak) it's not easy to retrofit SAML2/OpenID Connect support to some older apps (and sometimes builtin support for SSO is a crap)</td>
+</tr>
+<tr>
+<td>nice, easy to do initial setup (out of the box),  </td>
+</tr>
+<tr>
+<td>The bad is that the learning curve for modeling multi-tenancy and billing is very steep, and dealing with session timeout in a single page application has been tricky. The good is that Keycloak is very powerful and has been able to handle everything we need.</td>
+</tr>
+</table>
+</div>
+<h2>Additional comments</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>We're using Rancher</td>
+</tr>
+<tr>
+<td>Currently we have not deployed to any client, we are in development phase.It will be very helpful if you help in reverse proxy issue</td>
+</tr>
+<tr>
+<td>3 more applications are planed to port from direct Ldap to keycloak auth, then also with some more active users </td>
+</tr>
+<tr>
+<td>We always use the bundle of Keycloak versions.
+We routinely change the database engine, the log configuration and update the themes.</td>
+</tr>
+<tr>
+<td>Would prefer Docker, but clustering did not work well. Planning to use clustering in the near future.</td>
+</tr>
+<tr>
+<td>Cloud native DBs would be find (e.g. CockroachDB). </td>
+</tr>
+<tr>
+<td>Extended bia spi</td>
+</tr>
+<tr>
+<td>Better Docker documentation required!</td>
+</tr>
+<tr>
+<td>Amazon ECS</td>
+</tr>
+<tr>
+<td>I use kcadm-cli but it is very slow because this make a new jvm for each call</td>
+</tr>
+<tr>
+<td>Import/export/offline customization/staging of realms would be nice.</td>
+</tr>
+<tr>
+<td>We would use multiple data centers for DR if we could. We continuously replicate the database to a DR data center, but do not have active/active data centers in use.</td>
+</tr>
+<tr>
+<td>I'm not entirely sure on the deployment setup, this is done by the customer themselves. I filled this in to the best of my knowledge.</td>
+</tr>
+<tr>
+<td>Using AWS ECS</td>
+</tr>
+<tr>
+<td>would be nice to be able to upgrade/patch wildfly independently of keycloak</td>
+</tr>
+<tr>
+<td>Docker!!!!!  on AWS cloud server</td>
+</tr>
+<tr>
+<td>The host setup automation scripts are in use</td>
+</tr>
+<tr>
+<td>Keep up the good work</td>
+</tr>
+<tr>
+<td>Scripted, flyway-like tool that uses the admin endpoints. Contact me if interested, I could put it on GitHub.</td>
+</tr>
+<tr>
+<td>Detailed configuration under ALB and running it in production would help</td>
+</tr>
+<tr>
+<td>We are also testing the docker image on a mesos cluster</td>
+</tr>
+<tr>
+<td>Using both ZIP and Docker.</td>
+</tr>
+<tr>
+<td>We intend to migrate to Kubernetes on a public cloud provider this year.</td>
+</tr>
+<tr>
+<td>I use rancher to deploy keycloak</td>
+</tr>
+<tr>
+<td>We use an internal developed deployment tool to install all the STREAM web applications, together with Keycloak and its custom providers.</td>
+</tr>
+<tr>
+<td>Keep up the good work and thank you!</td>
+</tr>
+<tr>
+<td>RPM could be  easier for customers.</td>
+</tr>
+<tr>
+<td>Deployed zip + plugins + some configuration all done with ansible scripts</td>
+</tr>
+<tr>
+<td>ESX, HyperV</td>
+</tr>
+<tr>
+<td>I'm learning how Red Hat packages its SSO product from Keycloak from the source RPMs (hey, it's open source) 
+
+Also, nginx is serving as a reverse proxy, with caching of static assets there</td>
+</tr>
+<tr>
+<td>integrated with Wildfly; even though that is discouraged it fits our rather low load</td>
+</tr>
+<tr>
+<td>Docker on AWS, moving to Kubernetes</td>
+</tr>
+<tr>
+<td>CentOS 7-based, Keycloak started as systemd service unit, load balancing handled by HAproxy on separate machine</td>
+</tr>
+<tr>
+<td>also using docker-compose locally</td>
+</tr>
+</table>
+</div>
+<h2>Last comments</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>Continue the good Job :-)</td>
+</tr>
+<tr>
+<td>valid docker images supporting https </td>
+</tr>
+<tr>
+<td>An easier/graphical theme customization mechanism would be nice (logo/link change mostly)</td>
+</tr>
+<tr>
+<td>Tokens for admin area / master realm is getting so big that it is not manageable</td>
+</tr>
+<tr>
+<td>simple examples for basic usage would be nice, simple howto's, and more reponses on basic questions. It's difficult to get in.</td>
+</tr>
+<tr>
+<td>We have followed the project since the beginning in 2014.
+We want to thank you and congratulations for having achieved such a good product.
+It's a great job.</td>
+</tr>
+<tr>
+<td>In general a good product and a friendly community.</td>
+</tr>
+<tr>
+<td>you guys rock! :)</td>
+</tr>
+<tr>
+<td>Great product, we’ve used it very successfully to unlock our users for 3rd party integration in a safe way ie strong governance around protecting customers </td>
+</tr>
+<tr>
+<td>For one customer Keycloak wasn't suitable because of missing features and we had to switch to Nevis from AdNovum. I am fine with Keycloak for projects with not sofisticated requirements</td>
+</tr>
+<tr>
+<td>Thanks a lot again for this software! Waiting for the new version ;-)</td>
+</tr>
+<tr>
+<td>Thanks for open sourceing it</td>
+</tr>
+<tr>
+<td>There was a question whether I'd like an external adapter for Keycloak. We're running a POC which uses Netflix Zuul to perform the validation of the access token and forwards the traffic to the actual API if the token is valid.</td>
+</tr>
+<tr>
+<td>Great product overall. It just seems like it is designed for old school authentication needs and harder to use with more modern application architectures, despite all of the customization abilities. Keycloak clients seem overly complex and like they have become too much of a swiss army knife and are therefore confusing cause they can do too much.  Maybe things are intuitive to those with a background in security, but to everyone else, at times the Keycloak functionality is way too confusing than it needs to be. </td>
+</tr>
+<tr>
+<td>Please fix the some broken links in the documentation and also improve the readability of the community discussions.</td>
+</tr>
+<tr>
+<td>Please give thought to those of us needing 24x7 zero-downtime availability and how we can achieve this.  Staged database schema upgrades & related code for stepwise migration.  Caching /auth/resources/* in infinispan replicated caches so both old and new nodes can serve the same static content.  We do really appreciate all the work, and overall stability, that the KC community provides.</td>
+</tr>
+<tr>
+<td>Thanks for a great product. Hope to use it soon on a real production system.</td>
+</tr>
+<tr>
+<td>Love the product as a whole. Keep up the rapid development & quality, and KeyCloak will be a leading SSO / security tool!</td>
+</tr>
+<tr>
+<td>Keep up the good work! Amazing project.</td>
+</tr>
+<tr>
+<td>Keep up the good work, but imrpove MFA :D</td>
+</tr>
+<tr>
+<td>Setup a Stack Exchange or community forum for Keycloak. Mailing lists are just not practical! Have an feature voting section where community can vote for features.</td>
+</tr>
+<tr>
+<td>Thank you - this is a great application!</td>
+</tr>
+<tr>
+<td>The KC is the greatest open source identity and access management solution at the moment, so thank you guys for it and please don't stop to evolve it !</td>
+</tr>
+<tr>
+<td>Thanks for providing a comprehensive and easy-to-setup and easy-to-integrate single-sign-on service.</td>
+</tr>
+<tr>
+<td>You are doing a great job. More project visibility into development and public roadmap would be great.</td>
+</tr>
+<tr>
+<td>You are doing a great job. More project visibility into development and public roadmap would be great.</td>
+</tr>
+<tr>
+<td>Create a google groups for engaging community, have youtube videos on implementing and running keycloak at scale on Cloud (preferably AWS)</td>
+</tr>
+<tr>
+<td>thanks for the good product!</td>
+</tr>
+<tr>
+<td>Great work on keycloak!</td>
+</tr>
+<tr>
+<td>We are overall very happy with the product!</td>
+</tr>
+<tr>
+<td>I am very happy for meeting keycloak. The changes with version 4 are already great.</td>
+</tr>
+<tr>
+<td>Keycloak has been working really well for us, and using open standards for authentication means integration with other services has been very easy.
+Faster startup times would be nice, since our developers currently have to wait for Keycloak to be ready before being able to start other services for local development.
+Thanks for all the hard work!</td>
+</tr>
+<tr>
+<td>Very compliments for your great tool. Please, continue to improve it and don't break the backward compatibility anymore as you did with Federation/User Storage provider :)</td>
+</tr>
+<tr>
+<td>Keycloak is the best SSO solution available</td>
+</tr>
+<tr>
+<td>Thanks for the hard work. It really helps us in education. :)</td>
+</tr>
+<tr>
+<td>We're very interested on keycloak, and the future develop custome SPI.</td>
+</tr>
+<tr>
+<td>Very good product</td>
+</tr>
+<tr>
+<td>You are doing absolutely great work developing KC and I am delighted to be able to use this high-quality tool instead of 'CREATE TABLE users....' myself :-)</td>
+</tr>
+<tr>
+<td>Improve support on forum. Improve documentation.</td>
+</tr>
+<tr>
+<td>Keycloak is awesome!</td>
+</tr>
+<tr>
+<td>Keep up the AWESOME work!</td>
+</tr>
+<tr>
+<td>I am a basic user of keycloak, i've implemeted it in a small company, and it works just fine. You did a great work guys. And I would be happy if I could contribute to the project.</td>
+</tr>
+<tr>
+<td>The engine is slow, it doesn't scale well.</td>
+</tr>
+<tr>
+<td>Great product, we plan many more projects with it.</td>
+</tr>
+<tr>
+<td>Thanks great project! Did not have time to dig enough in the source code.</td>
+</tr>
+<tr>
+<td>Setting up realms, roles, clients and other settings manually feels too complicated and therefore takes too much time for beginners. Keycloak should come with some profiles that represent typical usage scenarios. It should be possible to apply such profiles during the installation process thereby helping to set up everything with the minimum information needed.</td>
+</tr>
+<tr>
+<td>Great tool! It is the defacto standard for IDAM when we are developing new applications.</td>
+</tr>
+<tr>
+<td>Good job, keep it up!</td>
+</tr>
+<tr>
+<td>"</td>
+</tr>
+</table>
+</div>
+<h1>Users</h1>
+<h2>Public references</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>Accenture</td>
+<td>suleymanube@gmail.com</td>
+<td>Suleyman</td>
+</tr>
+<tr>
+<td>Cybertech</td>
+<td>nair.atulya@gmail.com</td>
+<td>athulya</td>
+</tr>
+<tr>
+<td>European Synchrotron Radiation Facility</td>
+<td>antoine.roux@esrf.fr</td>
+<td>Antoine Roux</td>
+</tr>
+<tr>
+<td>Price Insight</td>
+<td>anton.c.hughes@gmail.com</td>
+<td>Anton</td>
+</tr>
+<tr>
+<td>Synekus</td>
+<td>ckl86@hotmail.com</td>
+<td>ckl86@hotmail.com</td>
+</tr>
+<tr>
+<td>DUENE e.V - project infinitenature</td>
+<td>dve@vergien.net</td>
+<td>Daniel Nordhoff-Vergien</td>
+</tr>
+<tr>
+<td>TrackingSport</td>
+<td>afroufeq@gmail.com</td>
+<td>Agustin Froufe</td>
+</tr>
+<tr>
+<td>Okta</td>
+<td>matt.raible@okta.com</td>
+<td>Matt Raible</td>
+</tr>
+<tr>
+<td>Sportsbet.com.au</td>
+<td>mail@thomasconnolly.com</td>
+<td>Tom</td>
+</tr>
+<tr>
+<td>CloudNative Inc.</td>
+<td>isobe@cloudnative.co.jp</td>
+<td>ISOBE Kazuhiko</td>
+</tr>
+<tr>
+<td>UnitedHealthcare</td>
+<td>xmlking@gmail.com</td>
+<td>xmlking@gmail.com</td>
+</tr>
+<tr>
+<td>PharmaPartners B.V.</td>
+<td>kevin.berendsen@pharmapartners.nl</td>
+<td>Kevin Berendsen</td>
+</tr>
+<tr>
+<td>Capgemini</td>
+<td>Alexandre.guyot.pro@gmail.com</td>
+<td>Alexandre GUYOT</td>
+</tr>
+<tr>
+<td>Chassi</td>
+<td>stephen@chassi.com</td>
+<td>Stephen Henrie</td>
+</tr>
+<tr>
+<td>ITROI Solutions</td>
+<td>jairohenaorojas@gmail.com</td>
+<td>Jairo Henao</td>
+</tr>
+<tr>
+<td>Curecomp GmbH</td>
+<td>christian.beikov@gmail.com</td>
+<td>Christian Beikov</td>
+</tr>
+<tr>
+<td>DukeCon</td>
+<td>gerd@aschemann.net</td>
+<td>Gerd Aschemann</td>
+</tr>
+<tr>
+<td>Quest Software</td>
+<td>matt.domsch@quest.com</td>
+<td>Matt Domsch</td>
+</tr>
+<tr>
+<td>ISAAC</td>
+<td>Friso.geerlings@isaac.nl</td>
+<td>Friso Geerlings</td>
+</tr>
+<tr>
+<td>ISAAC</td>
+<td>valentijn.scholten@isaac.nl</td>
+<td>Valentijn Scholten</td>
+</tr>
+<tr>
+<td>wolsnut4</td>
+<td>carlosthe19916@gmail.com</td>
+<td>Carlos Feria</td>
+</tr>
+<tr>
+<td>msg systems ag</td>
+<td>alexander.schwartz@msg-systems.com</td>
+<td>Alexander Schwartz</td>
+</tr>
+<tr>
+<td>Netdava International</td>
+<td>ieugen@netdava.com</td>
+<td>Eugen Stan</td>
+</tr>
+<tr>
+<td>BISPRO</td>
+<td>m.boumaza@bis-pro.com</td>
+<td>Mehdi</td>
+</tr>
+<tr>
+<td>Netdava International</td>
+<td>ieugen@netdava.com</td>
+<td>Eugen Stan</td>
+</tr>
+<tr>
+<td>Actinver</td>
+<td>bloodhellish@gmail.com</td>
+<td>Marco</td>
+</tr>
+<tr>
+<td>Plivo</td>
+<td>chida@plivo.com</td>
+<td>Chida</td>
+</tr>
+<tr>
+<td>Research Industrial Software Engineering (RISE)</td>
+<td>andreas.ehringfeld@rise-world.com</td>
+<td>andreas</td>
+</tr>
+<tr>
+<td>Ohio Supercomputer Center</td>
+<td>tdockendorf@osc.edu</td>
+<td>Trey Dockendorf</td>
+</tr>
+<tr>
+<td>Storebrand</td>
+<td>geir.emblemsvag@storebrand.no</td>
+<td>Geir Emblemsvåg</td>
+</tr>
+<tr>
+<td>INEAT</td>
+<td>opaf.info@gmail.com</td>
+<td>Fabien OUEDRAOGO</td>
+</tr>
+<tr>
+<td>ISAAC</td>
+<td>remon.vos@isaac.nl</td>
+<td>Remon Vos</td>
+</tr>
+<tr>
+<td>Copenhagen Optimization</td>
+<td>calverley@copopt.com</td>
+<td>Marcus Calverley</td>
+</tr>
+<tr>
+<td>pflaeging.net</td>
+<td>peter@pflaeging.net</td>
+<td>Peter Pfläging</td>
+</tr>
+<tr>
+<td>Synetek Solutions</td>
+<td>hventura@syneteksolutions.com</td>
+<td>Héctor Ventura</td>
+</tr>
+<tr>
+<td>Appier</td>
+<td>johnson.liang@appier.com</td>
+<td>Johnson</td>
+</tr>
+<tr>
+<td>Bundesversicherungsamt</td>
+<td>dev@kitenco.de</td>
+<td>Stephan</td>
+</tr>
+<tr>
+<td>Hewlett-Packard Enterprise</td>
+<td>jean-charles.picard@hpe.com</td>
+<td>Jean-Charles Picard</td>
+</tr>
+<tr>
+<td>Fluance AG</td>
+<td>bbenaidja@fluance.ch</td>
+<td>Badreddine BENAIDJA</td>
+</tr>
+<tr>
+<td>Prodesan</td>
+<td>inacio-silva@prodesan.com.br</td>
+<td>José Inácio da Silva Junior</td>
+</tr>
+<tr>
+<td>Devsu</td>
+<td>alopez@devsu.com</td>
+<td>Alvaro Lopez</td>
+</tr>
+<tr>
+<td>Taklane</td>
+<td>guillaume.jean@taklane.com</td>
+<td>Jean Guillaume</td>
+</tr>
+<tr>
+<td>TRT9 - Brasil</td>
+<td>filipelautert@gmail.com</td>
+<td>Filipe Lautert</td>
+</tr>
+<tr>
+<td>Bluestem Brands, Inc</td>
+<td>jared.olhoft@bluestembrands.com</td>
+<td>Jared Olhoft</td>
+</tr>
+<tr>
+<td>Akvo Foundation</td>
+<td>ivan@akvo.org</td>
+<td>Iván Perdomo</td>
+</tr>
+<tr>
+<td>Inventage</td>
+<td>esteiner@inventage.com</td>
+<td>Edwin Steiner</td>
+</tr>
+<tr>
+<td>NA</td>
+<td>gambol99@gmail.com</td>
+<td>Rohith</td>
+</tr>
+<tr>
+<td>Stack Labs</td>
+<td>ltearno@gmail.com</td>
+<td>Arnaud Tournier</td>
+</tr>
+<tr>
+<td>n/a</td>
+<td>ezajko@root.ba</td>
+<td>Ernedin Zajko</td>
+</tr>
+<tr>
+<td>Kindly Ops, LLC</td>
+<td>elliot@kindlyops.com</td>
+<td>Elliot Murphy</td>
+</tr>
+</table>
+</div>
+<h2>Others references</h2>
+<div class="maxheight">
+<table>
+<tr>
+<td>null</td>
+<td>tom.billiet@technicolor.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>senseFly</td>
+<td>cedric.thiebault@sensefly.com</td>
+<td>Cedric Thiebault</td>
+</tr>
+<tr>
+<td>Roannais agglomération</td>
+<td>cromieu@roannais-agglomeration.fr</td>
+<td>Carl Romieu</td>
+</tr>
+<tr>
+<td>vwd GmbH</td>
+<td>croth@vwd.com</td>
+<td>Christian Roth</td>
+</tr>
+<tr>
+<td>null</td>
+<td>oleg.atamanenko@gmail.com</td>
+<td>Oleg</td>
+</tr>
+<tr>
+<td>Wattsec</td>
+<td>julio@jarrebola.com</td>
+<td>Julio</td>
+</tr>
+<tr>
+<td>unu-merit</td>
+<td>heupink@merit.unu.edu</td>
+<td>mourik jan</td>
+</tr>
+<tr>
+<td>SysperTec Group</td>
+<td>chalopin@syspertec.com</td>
+<td>Bruno CHALOPIN</td>
+</tr>
+<tr>
+<td>Capgemini</td>
+<td>daniel.hammarberg@capgemini.com</td>
+<td>Daniel Hammarberg</td>
+</tr>
+<tr>
+<td>Daimler</td>
+<td>moritz.keppler@daimler.com</td>
+<td>Moritz Keppler</td>
+</tr>
+<tr>
+<td>null</td>
+<td>ricardo.arguello@gmail.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>DNAstack</td>
+<td>viliam.rockai@gmail.com</td>
+<td>Viliam Rockai</td>
+</tr>
+<tr>
+<td>Interface21.io</td>
+<td>hscherrer@interface21.io</td>
+<td>Heiko Scherrer</td>
+</tr>
+<tr>
+<td>Keycloak Using Company</td>
+<td>wannagivefeedbackbutnoemail@example.com</td>
+<td>Keycloak user</td>
+</tr>
+<tr>
+<td>null</td>
+<td>chexxor@gmail.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>DocSolver</td>
+<td>vincent@docsolver.com</td>
+<td>Vincent</td>
+</tr>
+<tr>
+<td>null</td>
+<td>foo@bar.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>Salesfusion</td>
+<td>rakesh.alladi@salesfusion.com</td>
+<td>Rakesh Alladi</td>
+</tr>
+<tr>
+<td>Tozny, LLC</td>
+<td>eric@tozny.com</td>
+<td>Eric Mann</td>
+</tr>
+<tr>
+<td>EOH Digital Platoon</td>
+<td>gadnex@gmail.com</td>
+<td>William Gadney</td>
+</tr>
+<tr>
+<td>CNIEG</td>
+<td>dominique.arnou@cnieg.fr</td>
+<td>Dominique ARNOU</td>
+</tr>
+<tr>
+<td>ISAAC</td>
+<td>daan.beulen@isaac.nl</td>
+<td>Daan Beulen</td>
+</tr>
+<tr>
+<td>Logismos s.a.</td>
+<td>dimiker@yahoo.gr</td>
+<td>Dimitris</td>
+</tr>
+<tr>
+<td>Picnic Supermarkets</td>
+<td>sjoerd.cranen@teampicnic.com</td>
+<td>Sjoerd Cranen</td>
+</tr>
+<tr>
+<td>null</td>
+<td>i.posledov@gmail.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>Focus21 Inc.</td>
+<td>sam@focus21.io</td>
+<td>Sam Lewis</td>
+</tr>
+<tr>
+<td>Hewlett Packard Enterprise</td>
+<td>rajat.nair@hpe.com</td>
+<td>Rajat Nair</td>
+</tr>
+<tr>
+<td>BioDati</td>
+<td>william.s.hayes@gmail.com</td>
+<td>William Hayes</td>
+</tr>
+<tr>
+<td>Qaside</td>
+<td>sergey@shimkiv.com</td>
+<td>Serhii Shymkiv</td>
+</tr>
+<tr>
+<td>null</td>
+<td>4bugzilla@gmail.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>Daimler AG</td>
+<td>jochen.vajda@daimler.com</td>
+<td>Jochen Vajda</td>
+</tr>
+<tr>
+<td>DSB</td>
+<td>anders.batstrand@dsb.no</td>
+<td>Anders Båtstrand</td>
+</tr>
+<tr>
+<td>null</td>
+<td>jerome.demange@ido-in.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>null</td>
+<td>cedric.couralet@gmail.com</td>
+<td>Cédric </td>
+</tr>
+<tr>
+<td>null</td>
+<td>ConDoin@seznam.cz</td>
+<td>Daniel</td>
+</tr>
+<tr>
+<td>Xist AS</td>
+<td>christian@xist.no</td>
+<td>Christian Frøystad</td>
+</tr>
+<tr>
+<td>Ixtlan Team d.o.o.</td>
+<td>joze.mlakar@ixtlan-team.si</td>
+<td>Joze Mlakar</td>
+</tr>
+<tr>
+<td>ISAAC</td>
+<td>merijn.vogel@isaac.nl</td>
+<td>Merijn Vogel</td>
+</tr>
+<tr>
+<td>Klopotek AEG</td>
+<td>onerrorgoto@aruba.it</td>
+<td>Vito Vessia</td>
+</tr>
+<tr>
+<td>null</td>
+<td>gene@kultpower.de</td>
+<td>Sebastian Eichholz</td>
+</tr>
+<tr>
+<td>ISAAC</td>
+<td>mark.vanderlinden@isaac.nl</td>
+<td>Mark van der Linden</td>
+</tr>
+<tr>
+<td>Department of Business and Professional Regulation</td>
+<td>adisari06@yahoo.com</td>
+<td>Adil Arif</td>
+</tr>
+<tr>
+<td>Benjamin Franklin Charter School</td>
+<td>aechols@bfcsaz.com</td>
+<td>Aaron Echols</td>
+</tr>
+<tr>
+<td>Ippon Technologies</td>
+<td>hcapitaine@ippon.com</td>
+<td>Harold Capitaine</td>
+</tr>
+<tr>
+<td>first8</td>
+<td>h.benz@first8.nl</td>
+<td>Hartmut Benz</td>
+</tr>
+<tr>
+<td>eurodata AG</td>
+<td>t.darimont@eurodata.de</td>
+<td>Thomas Darimont</td>
+</tr>
+<tr>
+<td>Convex IT</td>
+<td>youcef.belattaf@gmail.com</td>
+<td>Youcef BELATTAF</td>
+</tr>
+<tr>
+<td>null</td>
+<td>nah@nah.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td>orefalo@yahoo.com</td>
+<td>Olivier Refalo</td>
+</tr>
+<tr>
+<td>null</td>
+<td>jfherouard.almerys@gmail.com</td>
+<td>jfherouard</td>
+</tr>
+<tr>
+<td>Scigilian Software Inc.</td>
+<td>jerry.ferentinos@scigilian.com</td>
+<td>Jerry Ferentinos</td>
+</tr>
+<tr>
+<td>null</td>
+<td>derek.amz@gmail.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>NÜRNBERGER Versicherung</td>
+<td>bernhard.roider@nuernberger.de</td>
+<td>Bernhard Roider</td>
+</tr>
+<tr>
+<td>bayt.com</td>
+<td>ibmkhd@gmail.com</td>
+<td>ibrahim</td>
+</tr>
+<tr>
+<td>null</td>
+<td>r.haverkate@first8.nl</td>
+<td>null</td>
+</tr>
+<tr>
+<td>null</td>
+<td>egrimes@healthdynamics.com</td>
+<td>null</td>
+</tr>
+<tr>
+<td>null</td>
+<td>frederick@frederickding.com</td>
+<td>Frederick Ding</td>
+</tr>
+<tr>
+<td>Accenture</td>
+<td>ronald.c.poon@accenture.com</td>
+<td>Ronald Poon</td>
+</tr>
+<tr>
+<td>SBI</td>
+<td>thorsten.moeller@sbi.ch</td>
+<td>Thorsten Möller</td>
+</tr>
+<tr>
+<td>Cucumber</td>
+<td>roland.rich@cucumber.co.nz</td>
+<td>Roland</td>
+</tr>
+<tr>
+<td>Conseil départementale Loire-Atlantique</td>
+<td>stephane.freard@loire-atlantique.fr</td>
+<td>FREARD Stéphane</td>
+</tr>
+<tr>
+<td>AGH University of Science and Technology - Department of Computer Science</td>
+<td>mmalek+keycloak@agh.edu.pl</td>
+<td>Mateusz Małek</td>
+</tr>
+</table>
+</div>
+</body>

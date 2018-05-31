@@ -1,0 +1,27 @@
+Timestamp
+Username
+Contact name
+Company name
+How do you use Keycloak?
+Describe how you use Keycloak
+Describe your experience with Keycloak (the good and the bad)
+Are you interested in being a public reference for Keycloak (website and GitHub repository)?
+Which of the following features do you use
+How do you secure your applications and services
+Would you be interested in a lightweight proxy (external adapter)?
+Which themes if any do you customize
+Which SPIs if any do you implement custom providers for
+Do you do any significant configuration changes from the defaults?
+Do you do any other customizations of Keycloak (including forking and modifying code)?
+How many total users do you have?
+How many active users do you have?
+How many user logins do you have per hour?
+How many clients do you have?
+How many realms do you have?
+Do you use clustering?
+Which DB do you use?
+Describe what hardware you use
+How do you deploy Keycloak
+Any additional comments to deployment environment
+List any important features you are missing from Keycloak
+Any last comments or feedback?
