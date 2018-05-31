@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-var keycloak = new Keycloak();
+var keycloak = new Keycloak(config.clientConfigUrl);
 var serviceUrl = 'http://127.0.0.1:8080/service'
 
 function notAuthenticated() {

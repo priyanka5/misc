@@ -21,7 +21,11 @@
     <title>Keycloak Example App</title>
 
     <link rel="stylesheet" type="text/css" href="styles.css"/>
-
+    <script>
+        var config {
+            clientConfigUrl: "<?= $_ENV["KEYCLOAK_URL"] ?>/auth/realms/master/clients-registrations/install/app"
+        }
+    </script>
     <script src="<?= $_ENV["KEYCLOAK_URL"] ?>/js/keycloak.js"></script>
     <script src="app.js"></script>
 </head>
