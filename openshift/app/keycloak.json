@@ -1,8 +1,0 @@
-{
-  "realm": "master",
-  "auth-server-url": "http://keycloak-keycloak.192.168.42.52.nip.io/auth",
-  "ssl-required": "external",
-  "resource": "app",
-  "public-client": true,
-  "confidential-port": 0
-}

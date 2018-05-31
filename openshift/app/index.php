@@ -24,6 +24,7 @@
     <script>
         var config {
             clientConfigUrl: "<?= $_ENV["KEYCLOAK_URL"] ?>/auth/realms/master/clients-registrations/install/app"
+            serviceUrl: "<?= $_ENV["SERVICE_URL"] ?>"
         }
     </script>
     <script src="<?= $_ENV["KEYCLOAK_URL"] ?>/js/keycloak.js"></script>
