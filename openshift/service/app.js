@@ -24,6 +24,8 @@ var cors = require('cors');
 var app = express();
 app.use(bodyParser.json());
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
 // Enable CORS support
 app.use(cors());
 
@@ -70,6 +72,6 @@ app.use('*', function (req, res) {
   res.send('Not found!');
 });
 
-app.listen(3000, function () {
-  console.log('Started at port 3000');
+app.listen(8080, function () {
+  console.log('Started at port 8080');
 });
