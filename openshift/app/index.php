@@ -22,11 +22,12 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 
-    <script src="keycloak.js"></script>
+    <script src="https://secure-keycloak-keycloak.192.168.42.52.nip.io/auth/js/keycloak.js"></script>
     <script src="app.js"></script>
 </head>
 
 <body>
+    $_ENV["TEST"]
     <div class="wrapper">
         <div id="not-authenticated" class="menu">
             <button name="loginBtn" onclick="keycloak.login()">Login</button>
