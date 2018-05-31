@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <script>
         var config = {
-            clientConfigUrl: "<?= $_ENV["KEYCLOAK_URL"] ?>/auth/realms/master/clients-registrations/install/app"
+            clientConfigUrl: "<?= $_ENV["KEYCLOAK_URL"] ?>/auth/realms/master/clients-registrations/install/app",
             serviceUrl: "<?= $_ENV["SERVICE_URL"] ?>"
         }
     </script>
