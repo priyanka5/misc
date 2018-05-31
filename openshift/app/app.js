@@ -14,8 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-var keycloak = new Keycloak(config.clientConfigUrl);
-var serviceUrl = config.serviceUrl;
+var keycloak = new Keycloak('keycloak.php');
 
 function notAuthenticated() {
     document.getElementById('not-authenticated').style.display = 'block';
