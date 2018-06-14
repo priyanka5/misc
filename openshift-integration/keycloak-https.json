@@ -50,6 +50,13 @@
             "required": true
         },
         {
+            "displayName": "Keycloak log level",
+            "description": "Keycloak log level",
+            "name": "KEYCLOAK_LOGLEVEL",
+            "value": "TRACE",
+            "required": true
+        },
+        {
             "displayName": "Custom http Route Hostname",
             "description": "Custom hostname for http service route. Leave blank for default hostname, e.g.: <application-name>.<project>.<default-domain-suffix>",
             "name": "HOSTNAME_HTTP",
@@ -218,6 +225,10 @@
                                     {
                                         "name": "PROXY_ADDRESS_FORWARDING",
                                         "value": "${PROXY_ADDRESS_FORWARDING}"
+                                    },
+                                    {
+                                        "name": "KEYCLOAK_LOGLEVEL",
+                                        "value": "${KEYCLOAK_LOGLEVEL}"
                                     }
                                 ],
                                 "securityContext": {

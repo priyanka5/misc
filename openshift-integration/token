@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+ACCESS_TOKEN=`curl --insecure -s --data "client_id=admin-cli&username=admin&password=admin&grant_type=password" https://secure-keycloak-myproject.172.17.0.1.nip.io/auth/realms/master/protocol/openid-connect/token | jq -r '.access_token'`
+
+echo $ACCESS_TOKEN

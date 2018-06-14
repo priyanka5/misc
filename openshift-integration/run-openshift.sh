@@ -3,14 +3,14 @@
 DIR=`dirname $?`
 DIR=`readlink -f $DIR`
 
-OC_CONFIG=$DIR/openshift-config2
+OC_CONFIG=$DIR/openshift-config5
 
-export KEYCLOAK_URL=https://secure-keycloak-myproject.127.0.0.1.nip.io/auth
+export KEYCLOAK_URL=https://secure-keycloak-myproject.172.17.0.1.nip.io/auth
 
 cd /home/st/dev/go/src/github.com/openshift/origin
 export PATH="$( source hack/lib/init.sh; echo "${OS_OUTPUT_BINPATH}/$( os::build::host_platform )/" ):${PATH}"
 
-oc cluster up --base-dir=$OC_CONFIG --write-config=true --tag=latest
+oc cluster up --base-dir=$OC_CONFIG --write-config=true --tag=latest --public-hostname 172.17.0.1 --server-loglevel=10
 
 for i in kube-apiserver openshift-apiserver openshift-controller-manager; do
     cp $DIR/webhook.yaml $OC_CONFIG/$i
@@ -23,7 +23,7 @@ for i in openshift-apiserver openshift-controller-manager; do
     sed -i 's|webhookTokenAuthenticators: null|webhookTokenAuthenticators:\n  - configFile: "webhook.yaml"|' $OC_CONFIG/$i/master-config.yaml
 done
 
-oc cluster up --base-dir=$OC_CONFIG --tag=latest
+oc cluster up --base-dir=$OC_CONFIG --tag=latest --public-hostname 172.17.0.1 --server-loglevel=10
 
 oc login -u system:admin
 oc project myproject
