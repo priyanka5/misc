@@ -3,7 +3,7 @@
 DIR=`dirname $?`
 DIR=`readlink -f $DIR`
 
-OC_CONFIG=$DIR/openshift-config7
+OC_CONFIG=$DIR/openshift-config9
 
 export KEYCLOAK_URL=https://secure-keycloak-myproject.172.17.0.1.nip.io/auth
 
