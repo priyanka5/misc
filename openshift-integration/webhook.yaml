@@ -3,6 +3,7 @@ clusters:
 - name: keycloak
   cluster:
     server: KEYCLOAK_URL/realms/master/protocol/openshift/token/token-review
+    certificate-authority: /etc/origin/master/ca.crt
 contexts:
 - context:
     cluster: keycloak
